@@ -19,7 +19,7 @@ export default function Burger() {
     <>
       <nav className={styles.nav}>
         <div className={styles.burgerContainer}>
-          <Hamburger toggled={isOpen} toggle={setOpen} color="white" />
+          <Hamburger toggled={isOpen} toggle={setOpen} color="black" />
         </div>
         <motion.div
           animate={isOpen ? 'opened' : 'closed'}

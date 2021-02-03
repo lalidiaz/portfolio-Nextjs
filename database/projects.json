@@ -1,0 +1,163 @@
+{
+  "ferminWeb": {
+    "name": "Fermin Guerrero's Graphic and Type Designer web",
+    "id": 1,
+    "image": "/fermin.jpeg",
+    "techStack": "NextJs + Matierial UI",
+    "githubLink": "https://github.com/lalidiaz/FerminGuerreroWeb-NextJs",
+    "url": "https://ferminguerrero.com/",
+    "description": "Very happy to present Fermin Guerrero's personal web page, he is a type and graphic designer.",
+    "type": "Freelance job"
+  },
+  "portfolioSecond": {
+    "name": "Personal Portfolio Dev",
+    "id": 2,
+    "image": "/reduxcourse.png",
+    "techStack": "ReactJs + React Router",
+    "githubLink": "https://github.com/lalidiaz/new-personal-portfolio",
+    "url": "https://lauradiaz.lalidiaz.vercel.app/",
+    "description": "This was my previous personal portfolio, with a minimalist and simple UI.",
+    "type": "Course"
+  },
+  "reduxCourse": {
+    "name": "Redux Course",
+    "id": 3,
+    "image": "/reduxcourse.png",
+    "techStack": "React-Redux",
+    "githubLink": "https://github.com/lalidiaz/Redux-Course",
+    "url": "https://github.com/lalidiaz/Redux-Course",
+    "description": "In this course I learnt about Functional Programming, how to implement Redux Toolkit, I did some testing with a library called \"Jest\" and Debugging with Redux Dev Tools and React Dev Tools. This is a very simple UI app where you can mark a Bug as resolved, I encourage you to have a look at the code please, the interesting part is in Store folder where you will find all the Redux code.",
+    "type": "Course"
+  },
+  "spotify": {
+    "name": "Spotify Clone",
+    "id": 4,
+    "image": "/spotify.png",
+    "techStack": "React Native + GraphQL + Typescript + AWS Amplify + AWS AppSync",
+    "githubLink": "https://github.com/lalidiaz/Spotify-Clone-React-Native",
+    "url": "https://github.com/lalidiaz/Spotify-Clone-React-Native",
+    "description": "In this opportunity, I built an Spotify clone with the same UI. Front End: React Native, Expo, TypeScript and React Navegation. Back End: AWS Amplify, AWS AppSync and GraphQL. I create my own database and fetch the data from there. I used the library Expo-av to play and stop the songs in real time.",
+    "type": "Fullstack Mobile App"
+  },
+  "crypto": {
+    "name": "CryptoTracker App",
+    "id": 5,
+    "image": "/crypto.png",
+    "techStack": "React Native",
+    "githubLink": "https://github.com/lalidiaz/cryptotracker-React-Native",
+    "url": "https://github.com/lalidiaz/cryptotracker-React-Native",
+    "description": "With this app you can check all the Crypto currencies available in the market, in which markets you can find them and also information about the specific one you selected. It will show you if the price went up or down in the last 24 hours and in USD as well! You can add your favourite curriencies and delete them as well.",
+    "type": "Mobile App"
+  },
+
+  "recipe": {
+    "name": "Recipe App",
+    "id": 6,
+    "image": "/recipe.png",
+    "techStack": "React Js",
+    "githubLink": "https://github.com/lalidiaz/Recipe-ReactJc",
+    "url": "https://food-recipe-app.vercel.app",
+    "description": "This is a Recipe app built in ReactJs with Hooks, you can write the ingredient you like and you will get the recipes that contain that ingredient. Enjoy!",
+    "type": "Desktop App"
+  },
+  "insta": {
+    "name": "Instagram Clone",
+    "id": 7,
+    "image": "/instagram.png",
+    "techStack": "React Js + Styled Components + React Helmet (SEO) + GraphQl + React Apollo",
+    "githubLink": "https://github.com/lalidiaz/Tigram-App",
+    "url": "https://tigram-app.lalidiaz.vercel.app/",
+    "description": "This is an Instagram clone for pets (because I love animals 💖), you can log in and log out (Authentification with firebase), like pictures, add to your favourites and delete.",
+    "type": "Desktop & Movile App"
+  },
+  "todo": {
+    "name": "To-Do List",
+    "id": 8,
+    "image": "/todo.png",
+    "techStack": "React Js",
+    "githubLink": "https://github.com/lalidiaz/toDoListReactJs",
+    "url": "https://react-todolist.lalidiaz.vercel.app/",
+    "description": "This a To-Do-List app where you can make a list of whatever you want 😀",
+    "type": "Desktop & Movile App"
+  },
+  "todoredux": {
+    "name": "To-Do List Redux",
+    "id": 9,
+    "image": "/todoredux.png",
+    "techStack": "React Js",
+    "githubLink": "https://github.com/lalidiaz/toDoList-Redux",
+    "url": "https://react-todolist.lalidiaz.vercel.app/",
+    "description": "A To-Do list but this time with Redux!",
+    "type": "Desktop & Movile App"
+  },
+  "twitter": {
+    "name": "Twitter Clone",
+    "id": 10,
+    "image": "/twitter.png",
+    "techStack": "NextJs + Firebase",
+    "githubLink": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
+    "url": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
+    "description": "Twitter Clon with login authentification with Github authentification 💪🏽 Firebase: To keep my Devitts (tweets), the devitts update in real time everytime I write one!. It will show the time was created and you can access to that Devitt if you want to. Firebase to keep the tweets and its info in a data base.",
+    "type": "Desktop & Movile App"
+  },
+  "prevPort": {
+    "name": "Previous Personal Portfolio",
+    "id": 11,
+    "image": "/prevportfolio.png",
+    "techStack": "React Js",
+    "githubLink": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
+    "url": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
+    "description": "This is my first portfolio, is built in ReactJs. You can see the Figma design on github.",
+    "type": "Desktop & Movile App"
+  },
+  "searchengine": {
+    "name": "Search engine, e-commerce",
+    "id": 12,
+    "image": "search.png",
+    "techStack": "React Js",
+    "githubLink": "https://github.com/lalidiaz/SearchEngineReact",
+    "url": "https://fetch-mercadolibre.lalidiaz.vercel.app/",
+    "description": "This is a search engine where you can look for any product you like. I fetch the data from a public api from a large e-commerce from Argentina.",
+    "type": "Desktop App"
+  },
+  "bali": {
+    "name": "Bali Experience",
+    "id": 13,
+    "image": "/bali.png",
+    "techStack": "CSS + HTML5",
+    "githubLink": "https://github.com/lalidiaz/Bali-Experience-3DCards",
+    "url": "https://baliexperience.now.sh/",
+    "description": "This is a simple web with animated cards, just hover over the cards and you will see 🙈",
+    "type": "Desktop & Movile App"
+  },
+  "weather": {
+    "name": "Weather App",
+    "id": 14,
+    "image": "/weather.png",
+    "techStack": "CSS + HTML + Javascript Vanilla",
+    "githubLink": "https://github.com/lalidiaz/Weather-Fetch",
+    "url": "https://app-weather.vercel.app/",
+    "description": "In this App you can type any city in the world and will tell you the weather. I fetch the data from a public Weather Api.",
+    "type": "Desktop & Movile App"
+  },
+  "artist": {
+    "name": "Elizabeth's Web",
+    "id": 15,
+    "image": "/eli.png",
+    "techStack": "CSS + HTML + Javascript Vanilla",
+    "githubLink": "https://github.com/lalidiaz/Ely-AguileraArtWeb",
+    "url": "https://pagina-mami.lalidiaz.vercel.app/",
+    "description": "I built this web for my mom, she is an artist.",
+    "type": "Desktop & Movile App"
+  },
+  "parallax": {
+    "name": "La Muralla Roja Blog (The Red Wall Blog)",
+    "id": 16,
+    "image": "/parallax.png",
+    "techStack": "CSS + HTML",
+    "githubLink": "https://github.com/lalidiaz/La-Muralla-Roja",
+    "url": "https://efecto-parallax-3nd21jqki.vercel.app/",
+    "description": "This is a simple web about a magical place in Spain, designed by architect Ricardo Bofill.",
+    "type": "Desktop App"
+  }
+}

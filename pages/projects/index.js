@@ -2,6 +2,7 @@ import styles from './projects.module.scss';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 // import CustomCursor from '@components/CustomCursor';
+import Gallery from '@components/Gallery';
 
 const transition = {
   duration: 1,
@@ -23,6 +24,7 @@ export default function Projects() {
         exit="exit"
       >
         <motion.div className={styles.back} variants={backVariants}>
+          <Gallery />
           <Link href="/">
             <a>← Back</a>
           </Link>

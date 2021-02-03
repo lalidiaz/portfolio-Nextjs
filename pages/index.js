@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 import Presentation from '@components/Presentation';
 // import CustomCursor from '@components/CustomCursor';
 import Footer from '@components/Footer';
@@ -14,6 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <h1 className={styles.name}>Laura Diaz</h1>
         {/* <CustomCursor /> */}
         <Burger />
         <Presentation />

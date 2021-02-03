@@ -4,12 +4,17 @@ import { FaHeart } from 'react-icons/fa';
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      Made with{' '}
-      <span>
-        {' '}
-        <FaHeart />{' '}
-      </span>{' '}
-      by Laura.
+      <a className={styles.a} href="mailto:contact@lauradiaz.dev">
+        contact@lauradiaz.dev
+      </a>
+      <div>
+        Made with{' '}
+        <span>
+          {' '}
+          <FaHeart />{' '}
+        </span>{' '}
+        by Laura.
+      </div>
     </footer>
   );
 }
