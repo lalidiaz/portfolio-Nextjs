@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'castathin';
+  src: url('casta-thin-webfont.woff2') format('woff2'),
+    url('casta-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'maklight';
+  src: url('mak-webfont.woff2') format('woff2'),
+    url('mak-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'makbold';
+  src: url('mak-bold-webfont.woff2') format('woff2'),
+    url('mak-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'castathin';
+  src: url('casta-thin-webfont.woff2') format('woff2'),
+    url('casta-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'harmondextra_bold_expanded';
+  src: url('harmond-extraboldexpanded-webfont.woff2') format('woff2'),
+    url('harmond-extraboldexpanded-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
