@@ -1,0 +1,12 @@
+.wrapper {
+  height: 80px;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  .h1 {
+    font-family: 'harmondextra_bold_expanded';
+    font-size: 30px;
+  }
+}

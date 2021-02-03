@@ -1,20 +1,22 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Header from '@components/Header';
+import Presentation from '@components/Presentation';
+import CustomCursor from '@components/CustomCursor';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Laura Diaz</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.h1}>Laura Diaz</h1>
-        <h2 className={styles.h1}>Front End Developer</h2>
+        <CustomCursor />
+        <Header />
+        <Presentation />
       </main>
-
-      <footer className={styles.footer}></footer>
     </div>
   );
 }
