@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Header from '@components/Header';
 import Presentation from '@components/Presentation';
-import CustomCursor from '@components/CustomCursor';
+// import CustomCursor from '@components/CustomCursor';
+import Footer from '@components/Footer';
+import Burger from '@components/Burger';
 
 export default function Home() {
   return (
@@ -13,9 +14,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <CustomCursor />
-        <Header />
+        {/* <CustomCursor /> */}
+        <Burger />
         <Presentation />
+        <Footer />
       </main>
     </div>
   );

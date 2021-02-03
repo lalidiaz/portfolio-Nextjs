@@ -1,0 +1,15 @@
+.single {
+  overflow: hidden;
+  height: 100vh;
+
+  .back {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-size: 54px;
+    z-index: 1;
+    .a {
+      text-decoration: none;
+    }
+  }
+}

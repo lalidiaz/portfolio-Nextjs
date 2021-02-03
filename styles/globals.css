@@ -1,11 +1,14 @@
 html,
-body {
+body,
+.App,
+#root {
   padding: 0;
   margin: 0;
   background-color: #f3eee8;
   height: 100%;
   width: 100%;
-  cursor: none;
+  /* cursor: none; */
+  box-sizing: border-box;
 }
 
 a {
