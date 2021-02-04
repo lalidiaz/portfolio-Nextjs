@@ -5,16 +5,18 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+
   .mainTitle {
     font-family: 'castathin';
-    font-size: 80px;
-    width: 60%;
+    font-size: 90px;
+    width: 100%;
     text-align: center;
   }
 
   .section {
     width: 45%;
-    font-size: 24px;
+    font-size: 50px;
     text-align: center;
+    font-family: 'harmondextra_bold_expanded';
   }
 }

@@ -1,0 +1,35 @@
+.aboutHero {
+  color: #195fa6;
+  background: #f29283;
+  height: 100%;
+  widows: 100%;
+  text-align: center;
+  top: 0;
+  .back {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-size: 54px;
+    z-index: 1;
+    .a {
+      text-decoration: none;
+    }
+  }
+  .section {
+    font-size: 40px;
+    font-family: 'castathin';
+    width: 50%;
+    text-align: center;
+    height: 100%;
+  }
+
+  .stack {
+    font-size: 33px;
+    display: flex;
+    font-family: 'makbold';
+    align-items: center;
+    .ul {
+      list-style: none;
+    }
+  }
+}

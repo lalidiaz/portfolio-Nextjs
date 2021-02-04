@@ -14,10 +14,7 @@ const parse = (name) => {
 // all projects
 export function getProjectsData() {
   const parseData = parse('projects.json');
-  const ordererProjects = Object.values(parseData).sort(
-    (a, b) => parseInt(b.year) - parseInt(a.year)
-  );
-  return ordererProjects;
+  return parseData;
 }
 
 // get project
@@ -30,7 +27,7 @@ export function getProject(path) {
 // get paths
 export function getPaths() {
   const projects = getProjectsData();
-  const paths = projects.map((element) => element.slug);
+  const paths = Object.values(projects).map((element) => element.slug);
 
   return paths.map((path) => {
     return {

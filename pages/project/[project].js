@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import styles from './project.module.scss';
 //Data fetching
-import { getProjectsData, getPaths } from 'utils/dataFetch';
+import { getProject, getPaths } from 'utils/dataFetch';
 
 const transition = {
   duration: 1,
@@ -26,23 +26,57 @@ const backVariants = {
 const Project = ({ data }) => {
   console.log({ data });
   return (
-    <motion.div
-      className={styles.single}
-      initial="exit"
-      animate="enter"
-      exit="exit"
-    >
-      <h3>{data.name}</h3>
-      <motion.img variants={imageVariants} src={data.image} alt="" />
-
-      <motion.div className={styles.back} variants={backVariants}>
-        <Link href="/">
-          <a className={styles.a}>← Back</a>
-        </Link>
+    <>
+      <motion.div
+        className={styles.single}
+        initial="exit"
+        animate="enter"
+        exit="exit"
+      >
+        {data.map((element) => {
+          <>
+            <h3>{element.name}</h3>
+            <motion.img variants={imageVariants} src={element.image} alt="" />
+          </>;
+        })}
+        <motion.div className={styles.back} variants={backVariants}>
+          <Link href="/">
+            <a className={styles.a}>← Back</a>
+          </Link>
+        </motion.div>
       </motion.div>
-    </motion.div>
+    </>
   );
 };
 
+export async function getStaticPaths() {
+  return {
+    paths: [
+      { params: { id: 1 } },
+      { params: { id: 2 } },
+      { params: { id: 3 } },
+      { params: { id: 4 } },
+      { params: { id: 5 } },
+      { params: { id: 6 } }
+    ],
+    fallback: false
+  };
+}
 
+export async function getStaticPaths() {
+  const paths = await getPaths();
+  return { paths, fallback: false };
+}
+
+export async function getStaticProps({ params }) {
+  const path = params.slug;
+  const data = await getProject(path);
+  console.log({ data });
+  return {
+    props: {
+      data,
+      path
+    }
+  };
+}
 export default Project;

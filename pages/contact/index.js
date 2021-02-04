@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
-import styles from '../projects/projects.module.scss';
+import styles from './contact.module.scss';
 import Link from 'next/link';
+import { VscArrowDown } from 'react-icons/vsc';
+import CustomCursor from '@components/CustomCursor';
 
 const transition = {
   duration: 1,
@@ -24,23 +26,47 @@ const backVariants = {
 export default function Contact() {
   return (
     <>
-      <p>SOY CONTACT</p>
+      {/* <CustomCursor /> */}
       <motion.div
-        className={styles.single}
+        className={styles.wrapper}
         initial="exit"
         animate="enter"
         exit="exit"
       >
-        {/* <motion.img
-          variants={imageVariants}
-          src={`https://images.unsplash.com/${images[index]}?auto=format&fit=crop&w=1500`}
-          alt="The Barbican"
-        /> */}
         <motion.div className={styles.back} variants={backVariants}>
           <Link href="/">
-            <a>← Back</a>
+            <a className={styles.a}>← Back</a>
           </Link>
         </motion.div>
+
+        <div>
+          <p>I am always open to work. ツ</p>
+          <p>With passionate creatives striving to create uniqueness.</p>
+          <p>Let's connect!</p>
+          <div className={styles.social}>
+            <a href="mailto:contact@lauradiaz.dev" className="linkEmail">
+              contact@lauradiaz.dev
+            </a>
+            <div className="icon">
+              <a href="https://github.com/lalidiaz" target="_blank">
+                Github
+              </a>
+            </div>
+            <div className="icon">
+              <a href="/LauraDiazCV.pdf" download>
+                CV
+              </a>
+            </div>
+            <div className="icon">
+              <a
+                href="https://www.linkedin.com/in/laura-diaz-a661a617a/"
+                target="_blank"
+              >
+                Linkedin
+              </a>
+            </div>
+          </div>
+        </div>
       </motion.div>
     </>
   );

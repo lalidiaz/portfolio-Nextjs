@@ -22,8 +22,8 @@ export default function Burger() {
           <Hamburger toggled={isOpen} toggle={setOpen} color="black" />
         </div>
         <motion.div
+          initial={false}
           animate={isOpen ? 'opened' : 'closed'}
-          initialState={false}
           variants={menuVariants}
           className={styles.menu}
         >
@@ -33,7 +33,9 @@ export default function Burger() {
           <Link href="/contact">
             <a>Contact</a>
           </Link>
-          <p>lala</p>
+          <Link href="/about">
+            <a>About</a>
+          </Link>
         </motion.div>
       </nav>
     </>

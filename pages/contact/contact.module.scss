@@ -1,0 +1,27 @@
+.wrapper {
+  background-color: #195fa6;
+  color: #f29283;
+  font-family: 'castathin';
+  font-size: 100px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  .back {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-size: 54px;
+    z-index: 1;
+    .a {
+      text-decoration: none;
+    }
+  }
+  .social {
+    font-family: 'maklight';
+    font-size: 40px;
+    flex-direction: column;
+    display: flex;
+  }
+}
