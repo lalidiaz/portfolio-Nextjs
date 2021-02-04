@@ -1,0 +1,22 @@
+.aboutNext {
+  font-size: 33px;
+  width: 100%;
+  padding: 40px;
+  background: #5e489c;
+  color: white;
+  font-family: 'sk-modernistregular';
+
+  .back {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-size: 54px;
+    z-index: 1;
+    .a {
+      text-decoration: none;
+    }
+  }
+  .p {
+    width: 70%;
+  }
+}

@@ -47,27 +47,19 @@ export default function About() {
           </p>
         </section>
         <section className={styles.stack}>
-          <h3>My stuck</h3>
-          <RiArrowRightSFill size={60} />
-          <ul className={styles.ul}>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Javascript (ES6)</li>
-            <li>ReactJs</li>
-            <li>Jest (Testing)</li>
-            <li>Axios</li>
-            <li>NextJs</li>
-            <li>Typescript</li>
-            <li>Axios</li>
-            <li>AWS Amplify</li>
-            <li>Graphql</li>
-            <li>React Apollo</li>
-            <li>Git</li>
-            <li>Material UI</li>
-            <li>Styled Components</li>
-            <li>Github</li>
-            <li>Sass</li>
-          </ul>
+          <div>
+            <h3>My stuck</h3>
+            HTML5 CSS3 Javascript (ES6) ReactJs Jest (Testing) Axios NextJs
+            Typescript Axios AWS Amplify Graphql React Apollo Git Material UI
+            Styled Components Github Sass
+          </div>
+          <div>
+            <Link href="/whyNextjs">
+              <motion.div whileHover={{ scale: 0.8 }}>
+                <a>Why NextJs?</a>
+              </motion.div>
+            </Link>
+          </div>
         </section>
       </motion.div>
     </div>

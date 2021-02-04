@@ -1,9 +1,7 @@
 .aboutHero {
   color: #195fa6;
   background: #f29283;
-  height: 100%;
-  widows: 100%;
-  text-align: center;
+
   top: 0;
   .back {
     position: fixed;
@@ -21,13 +19,15 @@
     width: 50%;
     text-align: center;
     height: 100%;
+    margin-block-start: 0px;
+    padding: 100px;
   }
 
   .stack {
     font-size: 33px;
     display: flex;
     font-family: 'makbold';
-    align-items: center;
+
     .ul {
       list-style: none;
     }

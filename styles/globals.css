@@ -1,10 +1,83 @@
+@font-face {
+  font-family: 'neue_metanabold';
+  src: url('neuemetana-bold-webfont.woff2') format('woff2'),
+    url('neuemetana-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neue_metanaregular';
+  src: url('neuemetana-regular-webfont.woff2') format('woff2'),
+    url('neuemetana-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'harmondSBdItCn';
+  src: url('harmond-sembditacond-webfont.woff2') format('woff2'),
+    url('harmond-sembditacond-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'harmondextra_bold_expanded';
+  src: url('harmond-extraboldexpanded-webfont.woff2') format('woff2'),
+    url('harmond-extraboldexpanded-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'castathin_slanted';
+  src: url('casta-thinslanted-webfont.woff2') format('woff2'),
+    url('casta-thinslanted-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'castathin';
+  src: url('casta-thin-webfont.woff2') format('woff2'),
+    url('casta-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bigillaregular';
+  src: url('bigilla-webfont.woff2') format('woff2'),
+    url('bigilla-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bigillabold';
+  src: url('bigilla-bold-webfont.woff2') format('woff2'),
+    url('bigilla-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sk-modernistregular';
+  src: url('sk-modernist-regular-webfont.woff2') format('woff2'),
+    url('sk-modernist-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body,
 .App,
 #root {
   padding: 0;
   margin: 0;
-  background-color: #f3eee8;
+  background-color: #e6e2dc;
+  color: #f4a03f;
   height: 100%;
   width: 100%;
   /* cursor: none; */
@@ -18,44 +91,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: 'castathin';
-  src: url('casta-thin-webfont.woff2') format('woff2'),
-    url('casta-thin-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'maklight';
-  src: url('mak-webfont.woff2') format('woff2'),
-    url('mak-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'makbold';
-  src: url('mak-bold-webfont.woff2') format('woff2'),
-    url('mak-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'castathin';
-  src: url('casta-thin-webfont.woff2') format('woff2'),
-    url('casta-thin-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'harmondextra_bold_expanded';
-  src: url('harmond-extraboldexpanded-webfont.woff2') format('woff2'),
-    url('harmond-extraboldexpanded-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
 }
