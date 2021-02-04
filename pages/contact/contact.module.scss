@@ -2,12 +2,11 @@
   background-color: #195fa6;
   color: #f29283;
   font-family: 'neue_metanabold';
-  font-size: 100px;
-  height: 100%;
+  font-size: 60px;
+  height: 100vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  top: 0;
+  padding: 100px;
+
   .back {
     position: fixed;
     top: 50px;
@@ -18,10 +17,30 @@
       text-decoration: none;
     }
   }
-  .social {
-    font-family: 'maklight';
-    font-size: 40px;
-    flex-direction: column;
+  .contentWrapper {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    .text {
+      padding-top: 40px;
+      line-height: 1.2;
+    }
+    .social {
+      bottom: 0;
+      font-family: 'maklight';
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      font-family: 'Roboto Mono', monospace;
+      .a {
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        .span {
+          padding-left: 8px;
+        }
+      }
+    }
   }
 }

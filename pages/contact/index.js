@@ -1,21 +1,18 @@
 import { motion } from 'framer-motion';
 import styles from './contact.module.scss';
 import Link from 'next/link';
-import { VscArrowDown } from 'react-icons/vsc';
+
 import CustomCursor from '@components/CustomCursor';
+
+//icons
+import { IoDocumentAttachOutline } from 'react-icons/io5';
+import { IoLogoLinkedin } from 'react-icons/io';
+import { GoMarkGithub } from 'react-icons/go';
+import { HiOutlineMailOpen } from 'react-icons/hi';
 
 const transition = {
   duration: 1,
   ease: [0.43, 0.13, 0.23, 0.96]
-};
-
-const imageVariants = {
-  exit: { y: '50%', opacity: 0, transition },
-  enter: {
-    y: '0%',
-    opacity: 1,
-    transition
-  }
 };
 
 const backVariants = {
@@ -39,32 +36,45 @@ export default function Contact() {
           </Link>
         </motion.div>
 
-        <div>
-          <p>I am always open to work. ツ</p>
-          <p>With passionate creatives striving to create uniqueness.</p>
-          <p>Let's connect!</p>
+        <div className={styles.contentWrapper}>
+          <div className={styles.text}>
+            <p>
+              Striving to create uniqueness.
+              <br />
+              Always happy to hear from you. ツ
+              <br />
+              Let's connect!
+            </p>
+          </div>
+
           <div className={styles.social}>
-            <a href="mailto:contact@lauradiaz.dev" className="linkEmail">
-              contact@lauradiaz.dev
+            <a href="mailto:contact@lauradiaz.dev" className={styles.a}>
+              <HiOutlineMailOpen />{' '}
+              <span className={styles.span}>contact@lauradiaz.dev</span>
             </a>
-            <div className="icon">
-              <a href="https://github.com/lalidiaz" target="_blank">
-                Github
-              </a>
-            </div>
-            <div className="icon">
-              <a href="/LauraDiazCV.pdf" download>
-                CV
-              </a>
-            </div>
-            <div className="icon">
-              <a
-                href="https://www.linkedin.com/in/laura-diaz-a661a617a/"
-                target="_blank"
-              >
-                Linkedin
-              </a>
-            </div>
+
+            <a
+              href="https://github.com/lalidiaz"
+              target="_blank"
+              className={styles.a}
+            >
+              <GoMarkGithub />
+              <span className={styles.span}>Github</span>
+            </a>
+
+            <a className={styles.a} href="/LauraDiazCV.pdf" download>
+              <IoDocumentAttachOutline />
+              <span className={styles.span}>CV</span>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/laura-diaz-a661a617a/"
+              target="_blank"
+              className={styles.a}
+            >
+              <IoLogoLinkedin />
+              <span className={styles.span}>Linkedin</span>
+            </a>
           </div>
         </div>
       </motion.div>

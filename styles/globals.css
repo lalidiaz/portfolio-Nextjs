@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+/* to try in home : font-family: 'Suez One', serif; */
+/*
+para probar en home font-family: 'Changa One', cursive; */
+
 @font-face {
   font-family: 'neue_metanabold';
   src: url('neuemetana-bold-webfont.woff2') format('woff2'),
@@ -14,13 +22,13 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'harmondSBdItCn';
   src: url('harmond-sembditacond-webfont.woff2') format('woff2'),
     url('harmond-sembditacond-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: 'harmondextra_bold_expanded';
