@@ -6,9 +6,10 @@
   .back {
     position: fixed;
     top: 50px;
-    right: 50px;
+    right: 10px;
     font-size: 54px;
     z-index: 1;
+    font-family: 'neue_metanabold';
     .a {
       text-decoration: none;
     }
@@ -22,7 +23,7 @@
     left: 50%;
     transform: translateX(-50%);
     pointer-events: none;
-    font-family: 'harmondextra_bold_expanded';
+    font-family: 'neue_metanabold';
   }
 
   .gallery {
@@ -31,7 +32,7 @@
     width: 80%;
     height: auto;
     margin: 0 auto;
-    padding: 40px;
+    padding-bottom: 180px;
 
     .thumbnails {
       display: flex;
@@ -54,9 +55,12 @@
           .card {
             height: 600px;
             width: 100%;
-            font-size: 25px;
+            font-size: 22px;
             font-family: 'makbold';
             background-color: white;
+            color: #1a4633;
+            font-family: 'Roboto Mono', monospace;
+            padding: 20px;
 
             .image {
               border: 10px solid white;
@@ -64,12 +68,14 @@
               height: 70%;
               object-fit: cover;
               object-position: center;
-              padding: 30px;
             }
             .cardBottom {
+              text-align: center;
+              width: 100%;
               .a {
+                color: #ea99c5;
                 display: block;
-                text-align: right;
+                font-family: 'neue_metanabold';
               }
             }
           }

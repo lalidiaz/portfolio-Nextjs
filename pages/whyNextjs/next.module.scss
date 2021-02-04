@@ -5,7 +5,6 @@
   background: #5e489c;
   color: white;
   font-family: 'sk-modernistregular';
- 
   line-height: 1.4;
 
   .back {
@@ -18,7 +17,21 @@
       text-decoration: none;
     }
   }
-  .p {
-    width: 70%;
+  .next {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+
+    .p {
+      width: 73%;
+    }
+    .gif {
+      .img {
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+      }
+    }
   }
 }

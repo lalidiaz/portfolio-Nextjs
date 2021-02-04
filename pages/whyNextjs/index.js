@@ -63,6 +63,10 @@ export default function WhyNextjs() {
               the user’s browser to download and the user benefits from seeing
               the page content quicker.
             </p>
+
+            <div className={styles.gif}>
+              <img className={styles.img} src="/puppet.gif" type="gif" />
+            </div>
           </section>
         </motion.div>
       </div>

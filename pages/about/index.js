@@ -33,8 +33,7 @@ export default function About() {
             Hi! My name is Laura but you can call me Lali. I am a Front End
             Developer from Argentina living in the desert. I believe in building
             self-sustaining, purposeful products. I aim to build products that
-            scratch my itch, products that I feel like I want them to exist in
-            this world!
+            scratch my itch, products that I would enjoy to build.
           </p>
         </section>
 
