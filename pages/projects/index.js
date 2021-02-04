@@ -43,7 +43,7 @@ export default function Projects({ data }) {
               <a className={styles.a}>← Back</a>
             </Link>
           </motion.div>
-          <h1>Projects:</h1>
+          <h1 className={styles.h1}>Projects</h1>
           <div className={styles.gallery}>
             <motion.div
               className={styles.thumbnails}
