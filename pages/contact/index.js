@@ -20,6 +20,27 @@ const backVariants = {
   enter: { x: 0, opacity: 1, transition: { delay: 1, ...transition } }
 };
 
+const boxVariants = {
+  out: {
+    y: 600
+  },
+  in: {
+    y: 0,
+    transition: {
+      duration: 0.6,
+      delayChildren: 1.2
+    }
+  }
+};
+const iconVariants = {
+  out: {
+    x: -600
+  },
+  in: {
+    x: 0
+  }
+};
+
 export default function Contact() {
   return (
     <>
@@ -46,36 +67,42 @@ export default function Contact() {
               Let's connect!
             </p>
           </div>
-
-          <div className={styles.social}>
-            <a href="mailto:contact@lauradiaz.dev" className={styles.a}>
-              <HiOutlineMailOpen />{' '}
-              <span className={styles.span}>contact@lauradiaz.dev</span>
-            </a>
-
-            <a
-              href="https://github.com/lalidiaz"
-              target="_blank"
-              className={styles.a}
-            >
-              <GoMarkGithub />
-              <span className={styles.span}>Github</span>
-            </a>
-
-            <a className={styles.a} href="/LauraDiazCV.pdf" download>
-              <IoDocumentAttachOutline />
-              <span className={styles.span}>CV</span>
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/laura-diaz-a661a617a/"
-              target="_blank"
-              className={styles.a}
-            >
-              <IoLogoLinkedin />
-              <span className={styles.span}>Linkedin</span>
-            </a>
-          </div>
+          <motion.div variants={boxVariants} initial="out" animate="in">
+            <div className={styles.social}>
+              <motion.span variants={iconVariants}>
+                <a href="mailto:contact@lauradiaz.dev" className={styles.a}>
+                  <HiOutlineMailOpen />
+                  <span className={styles.span}>contact@lauradiaz.dev</span>
+                </a>
+              </motion.span>
+              <motion.span variants={iconVariants}>
+                <a
+                  href="https://github.com/lalidiaz"
+                  target="_blank"
+                  className={styles.a}
+                >
+                  <GoMarkGithub />
+                  <span className={styles.span}>Github</span>
+                </a>
+              </motion.span>
+              <motion.span variants={iconVariants}>
+                <a className={styles.a} href="/LauraDiazCV.pdf" download>
+                  <IoDocumentAttachOutline />
+                  <span className={styles.span}>CV</span>
+                </a>
+              </motion.span>
+              <motion.span variants={iconVariants}>
+                <a
+                  href="https://www.linkedin.com/in/laura-diaz-a661a617a/"
+                  target="_blank"
+                  className={styles.a}
+                >
+                  <IoLogoLinkedin />
+                  <span className={styles.span}>Linkedin</span>
+                </a>
+              </motion.span>
+            </div>
+          </motion.div>
         </div>
       </motion.div>
     </>

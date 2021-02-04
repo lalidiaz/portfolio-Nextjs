@@ -1,7 +1,7 @@
 import styles from './about.module.scss';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { RiArrowRightSFill } from 'react-icons/ri';
+import { BsQuestionCircle } from 'react-icons/bs';
 
 const transition = {
   duration: 1,
@@ -30,41 +30,48 @@ export default function About() {
 
         <section className={styles.section}>
           <p>
-            Hi! My name is Laura But you can call me Lali. I am a Front End
-            Developer from Argentina living in the desert. I believes in
-            building self-sustaining, purposeful products. I aim to build
-            products that scratch our itch, products that she want to exist in
-            this world. I enjoy blurring the lines of design and engineering.
+            Hi! My name is Laura but you can call me Lali. I am a Front End
+            Developer from Argentina living in the desert. I believe in building
+            self-sustaining, purposeful products. I aim to build products that
+            scratch my itch, products that I feel like I want them to exist in
+            this world!
           </p>
         </section>
+
         <section className={styles.stack}>
           <div>
-            <h3>My stuck</h3>
+            <h3 className={styles.h3}>My stuck</h3>
             <p>
-              HTML5 CSS3 Javascript (ES6) ReactJs Jest (Testing) Axios NextJs
-              Typescript Axios AWS Amplify Graphql React Apollo Git Material UI
-              Styled Components Github Sass
+              HTML5 / CSS3 / Javascript (ES6) / ReactJs / React Apollo / NextJs
+              / Jest (Testing) / Axios / Typescript / AWS Amplify / Graphql /
+              Git / Material UI / Styled Components / Sass.
             </p>
-          </div>
-          <div className={styles.nextjs}>
-            <Link href="/whyNextjs">
-              <motion.div
-                style={{
-                  width: 200,
-                  height: 200,
-                  borderRadius: '50%',
-                  border: '1px solid'
-                }}
-                whileHover={{
-                  scale: 0.8
-                }}
-              >
-                <a className={styles.a}>Why NextJs?</a>
-              </motion.div>
-            </Link>
           </div>
         </section>
       </motion.div>
+
+      <div className={styles.nextjs}>
+        <Link href="/whyNextjs">
+          <motion.div
+            style={{
+              width: 100,
+              height: 100,
+              color: 'white',
+              fontSize: '28px',
+              textAlign: 'center',
+              width: '100%',
+              cursor: 'pointer'
+            }}
+            whileHover={{
+              scale: 0.8
+            }}
+          >
+            <a className={styles.a}>
+              <BsQuestionCircle /> Why I choose NextJs and why I love it?
+            </a>
+          </motion.div>
+        </Link>
+      </div>
     </div>
   );
 }

@@ -15,7 +15,7 @@
   }
   .section {
     font-size: 40px;
-    font-family: 'castathin';
+    font-family: 'Roboto Mono', monospace;
     width: 100%;
     text-align: right;
     height: 100%;
@@ -25,22 +25,21 @@
 
   .stack {
     font-size: 33px;
-    font-family: 'makbold';
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0px 40px 40px 40px;
 
-    .ul {
-      list-style: none;
+    .h3 {
+      font-family: 'neue_metanabold';
     }
-    .nextjs {
-      .a {
-        display: block;
-        text-align: center;
-        padding: 25%;
-      }
+  }
+  .nextjs {
+    width: 100%;
+    display: flex;
+    font-family: 'neue_metanabold';
+    padding: 0px 40px 40px 40px;
+
+    .a {
+      display: block;
     }
   }
 }
