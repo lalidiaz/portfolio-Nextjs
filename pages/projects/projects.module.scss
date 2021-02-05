@@ -1,19 +1,29 @@
+@import 'styles/mixins';
+
 .hero {
   font-family: 'makbold';
-  font-size: 40px;
+
   background: #938f89;
   color: #f29283;
 
   .h1 {
-    font-size: 120px;
+    font-size: 50px;
     text-align: center;
     position: fixed;
-    bottom: -100px;
+    bottom: 40px;
     z-index: 1;
     left: 50%;
     transform: translateX(-50%);
     pointer-events: none;
     font-family: 'neue_metanabold';
+
+    @include tablet {
+      font-size: 80px;
+    }
+    @include desktop {
+      font-size: 120px;
+      bottom: -80px;
+    }
   }
 
   .gallery {
@@ -22,26 +32,51 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding-bottom: 180px;
+    padding-bottom: 150px;
     padding-top: 50px;
+
+    @include tablet {
+      padding-bottom: 200px;
+    }
+    @include desktop {
+      padding-bottom: 180px;
+    }
 
     .thumbnails {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      padding-top: 10%;
+      padding-top: 5%;
+
+      @include desktop {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-top: 10%;
+      }
 
       .thumbnail {
         width: 100%;
         height: auto;
-        flex: 1 0 28%;
-        margin: 10px;
+        flex: 1 0 100%;
+        padding: 20px;
         display: flex;
+
+        @include tablet {
+          flex: 1 0 50%;
+        }
+
+        @include desktop {
+          width: 100%;
+          height: auto;
+          flex: 1 0 28%;
+          margin: 10px;
+          display: flex;
+        }
 
         cursor: pointer;
         .frame {
           overflow: hidden;
-
           height: auto;
 
           .card {

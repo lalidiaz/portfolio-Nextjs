@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.scss';
-// import Presentation from '@components/Presentation';
 //import CustomCursor from '@components/CustomCursor';
 
 import Burger from '@components/Burger';

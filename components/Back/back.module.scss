@@ -1,11 +1,25 @@
+@import 'styles/mixins';
+
 .back {
   position: fixed;
   top: 50px;
   left: 50px;
-  font-size: 36px;
+  font-size: 22px;
   z-index: 1;
   font-family: 'neue_metanabold';
   .back a {
     text-decoration: none;
+  }
+
+  @include desktop {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    font-size: 36px;
+    z-index: 1;
+    font-family: 'neue_metanabold';
+    .back a {
+      text-decoration: none;
+    }
   }
 }

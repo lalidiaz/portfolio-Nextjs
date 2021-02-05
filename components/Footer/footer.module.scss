@@ -1,13 +1,28 @@
+@import 'styles/mixins';
+
 .footer {
   width: 100%;
   position: fixed;
   bottom: 5px;
-  height: 50px;
-  padding: 20px;
+  height: auto;
+  padding: 50px 20px 10px 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   font-family: 'Roboto Mono', monospace;
+
+  @include tablet {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  @include desktop {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
 
   .a {
     font-size: 18px;

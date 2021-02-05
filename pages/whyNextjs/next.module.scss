@@ -1,3 +1,5 @@
+@import 'styles/mixins';
+
 .aboutNext {
   font-size: 20px;
   width: 100%;
@@ -8,24 +10,53 @@
   line-height: 1.4;
 
   .back {
+    position: fixed;
     top: 50px;
     left: 50px;
-    font-size: 54px;
+    font-size: 22px;
     z-index: 1;
-    .a {
+    font-family: 'neue_metanabold';
+    .back a {
       text-decoration: none;
+    }
+
+    @include desktop {
+      position: fixed;
+      top: 50px;
+      left: 50px;
+      font-size: 36px;
+      z-index: 1;
+      font-family: 'neue_metanabold';
+      .back a {
+        text-decoration: none;
+      }
     }
   }
   .next {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     text-align: left;
     align-items: flex-end;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 0px;
+
+    @include tablet {
+      padding-top: 0px;
+    }
+    @include desktop {
+      flex-direction: row;
+      padding-top: 50px;
+    }
 
     .p {
-      width: 73%;
+      width: 100%;
+
+      @include tablet {
+        width: 100%;
+      }
+      @include desktop {
+        width: 73%;
+      }
     }
     .gif {
       .img {

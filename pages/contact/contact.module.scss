@@ -1,39 +1,82 @@
+@import 'styles/mixins';
+
 .wrapper {
   background-color: #195fa6;
   color: #f29283;
   font-family: 'neue_metanabold';
-  font-size: 60px;
+  font-size: 22px;
   height: 100vh;
   width: 100%;
-  padding: 100px;
+  padding: 60px;
+
+  @include tablet {
+    font-size: 30px;
+    padding: 60px;
+  }
+  @include desktop {
+    font-size: 60px;
+    padding: 100px;
+  }
 
   .back {
     position: fixed;
     top: 50px;
-    right: 50px;
-    font-size: 54px;
+    left: 50px;
+    font-size: 22px;
     z-index: 1;
-    .a {
+    font-family: 'neue_metanabold';
+    .back a {
       text-decoration: none;
+    }
+
+    @include desktop {
+      position: fixed;
+      top: 50px;
+      left: 50px;
+      font-size: 36px;
+      z-index: 1;
+      font-family: 'neue_metanabold';
+      .back a {
+        text-decoration: none;
+      }
     }
   }
   .contentWrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    height: 90%;
+
+    @include tablet {
+      height: 90%;
+    }
+    @include desktop {
+      height: 100%;
+    }
 
     .text {
-      padding-top: 40px;
+      padding-top: 20px;
       line-height: 1.2;
+
+      @include tablet {
+      }
+      @include desktop {
+        padding-top: 40px;
+      }
     }
     .social {
       bottom: 0;
       font-family: 'maklight';
-      font-size: 30px;
+      font-size: 22px;
       display: flex;
       flex-direction: column;
       font-family: 'Roboto Mono', monospace;
+      @include tablet {
+        font-size: 22px;
+      }
+      @include desktop {
+        font-size: 30px;
+      }
       .a {
         line-height: 1.5;
         display: flex;
