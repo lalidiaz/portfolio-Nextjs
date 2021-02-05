@@ -32,7 +32,7 @@ export default function About() {
             Hi! My name is Laura but you can call me Lali. I am a Front End
             Developer from Argentina living in the desert. I believe in building
             self-sustaining, purposeful products. I aim to build products that
-            scratch my itch, products that I would enjoy to build.
+            people would enjoy.
           </p>
           <section className={styles.stack}>
             <h3 className={styles.h3}>My stuck</h3>

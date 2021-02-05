@@ -1,8 +1,6 @@
 @import 'styles/mixins';
 
 .hero {
-  font-family: 'makbold';
-
   background: #938f89;
   color: #f29283;
 
@@ -86,7 +84,7 @@
             font-family: 'makbold';
             background-color: white;
             color: #938f89;
-            font-family: 'Roboto Mono', monospace;
+            font-family: 'roboto_monoregular';
             padding: 10px;
 
             .image {
