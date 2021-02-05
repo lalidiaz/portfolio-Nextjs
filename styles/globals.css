@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
-
 @font-face {
   font-family: 'neue_metanabold';
   src: url('neuemetana-bold-webfont.woff2') format('woff2'),
@@ -16,13 +14,26 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'roboto_monoregular';
+  src: url('robotomono-variablefont_wght-webfont.woff2') format('woff2'),
+    url('robotomono-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_monoitalic';
+  src: url('robotomono-italic-variablefont_wght-webfont.woff2') format('woff2'),
+    url('robotomono-italic-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
- 
-  /* cursor: none; */
   box-sizing: border-box;
 }
 
