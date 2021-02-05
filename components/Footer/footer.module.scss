@@ -3,15 +3,16 @@
 .footer {
   width: 100%;
   position: fixed;
-  bottom: 5px;
-  height: auto;
-  padding: 50px 20px 0px 20px;
+  bottom: 0;
+  height: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
-
+  background: white;
+  color: black;
+  padding: 14px;
   @include tablet {
     display: flex;
     justify-content: space-between;
