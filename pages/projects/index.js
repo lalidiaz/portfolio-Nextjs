@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import Back from 'components/Back';
 import { getProjectsData } from 'utils/getData';
+import Footer from 'components/Footer';
 
 const transition = { duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] };
 
@@ -79,6 +80,7 @@ export default function Projects({ data }) {
           </div>
         </div>
       </motion.div>
+      <Footer />
     </>
   );
 }

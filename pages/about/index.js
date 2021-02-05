@@ -35,7 +35,7 @@ export default function About() {
             people would enjoy.
           </p>
           <section className={styles.stack}>
-            <h3 className={styles.h3}>My stuck</h3>
+            <h3 className={styles.h3}>My stack</h3>
             <p>
               HTML5 / CSS3 / Javascript (ES6) / ReactJs / React Apollo / NextJs
               / Jest (Testing) / Axios / Typescript / AWS Amplify / Graphql /

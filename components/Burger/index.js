@@ -28,13 +28,13 @@ export default function Burger() {
           className={styles.menu}
         >
           <Link href="/projects">
-            <a>Projects</a>
+            <a className={styles.a}>Projects</a>
           </Link>
           <Link href="/contact">
-            <a>Contact</a>
+            <a className={styles.a}>Contact</a>
           </Link>
           <Link href="/about">
-            <a>About</a>
+            <a className={styles.a}>About</a>
           </Link>
         </motion.div>
       </nav>

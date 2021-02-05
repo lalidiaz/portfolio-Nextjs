@@ -1,7 +1,7 @@
 @import 'styles/mixins';
 
 .back {
-  position: fixed;
+  position: absolute;
   top: 30px;
   left: 30px;
   font-size: 22px;
@@ -12,7 +12,7 @@
   }
 
   @include desktop {
-    position: fixed;
+    position: absolute;
     top: 50px;
     left: 50px;
     font-size: 36px;

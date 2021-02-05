@@ -5,23 +5,24 @@
   position: fixed;
   bottom: 5px;
   height: auto;
-  padding: 50px 20px 10px 20px;
+  padding: 50px 20px 0px 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'roboto_monoregular';
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
 
   @include tablet {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     align-items: center;
+    flex-direction: row;
   }
   @include desktop {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     align-items: center;
+    flex-direction: row;
   }
 
   .a {
