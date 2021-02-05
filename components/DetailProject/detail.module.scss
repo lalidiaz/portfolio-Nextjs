@@ -102,6 +102,9 @@
       }
       p {
         font-weight: bold;
+        display: flex;
+        align-items: center;
+
         .span {
           padding-left: 5px;
         }
