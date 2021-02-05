@@ -2,15 +2,11 @@ import styles from './about.module.scss';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsQuestionCircle } from 'react-icons/bs';
+import Back from 'components/Burger';
 
 const transition = {
   duration: 1,
   ease: [0.43, 0.13, 0.23, 0.96]
-};
-
-const backVariants = {
-  exit: { x: 100, opacity: 0, transition },
-  enter: { x: 0, opacity: 1, transition: { delay: 1, ...transition } }
 };
 
 export default function About() {
@@ -22,14 +18,10 @@ export default function About() {
         animate="enter"
         exit="exit"
       >
-        <motion.div className={styles.back} variants={backVariants}>
-          <Link href="/">
-            <a className={styles.a}>← Back</a>
-          </Link>
-        </motion.div>
+        <Back />
 
         <section className={styles.section}>
-          <p>
+          <p className={styles.p}>
             Hi! My name is Laura but you can call me Lali. I am a Front End
             Developer from Argentina living in the desert. I believe in building
             self-sustaining, purposeful products. I aim to build products that

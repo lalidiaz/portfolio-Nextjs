@@ -1,31 +1,23 @@
 .aboutHero {
   color: #195fa6;
   background: #f29283;
-
   top: 0;
-  .back {
-    // position: fixed;
-    position: absolute;
-    top: 50px;
-    right: 50px;
-    font-size: 54px;
-    z-index: 1;
-    .a {
-      text-decoration: none;
-    }
-  }
+
   .section {
-    font-size: 40px;
+    font-size: 26px;
     font-family: 'Roboto Mono', monospace;
     width: 100%;
     text-align: right;
     height: 100%;
     margin-block-start: 0px;
     padding: 100px;
+    .p {
+      font-size: 26px;
+    }
   }
 
   .stack {
-    font-size: 33px;
+    font-size: 26px;
     font-family: 'Roboto Mono', monospace;
     padding: 0px 40px 40px 40px;
 
@@ -38,6 +30,7 @@
     display: flex;
     font-family: 'neue_metanabold';
     padding: 0px 40px 40px 40px;
+    font-size: 28px;
 
     .a {
       display: block;

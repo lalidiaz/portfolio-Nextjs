@@ -1,21 +1,11 @@
 .hero {
   font-family: 'makbold';
   font-size: 40px;
-  background: #1a4633;
-  color: #ea99c5;
-  .back {
-    position: fixed;
-    top: 50px;
-    right: 10px;
-    font-size: 54px;
-    z-index: 1;
-    font-family: 'neue_metanabold';
-    .a {
-      text-decoration: none;
-    }
-  }
+  background: #938f89;
+  color: #f29283;
+
   .h1 {
-    font-size: 150px;
+    font-size: 120px;
     text-align: center;
     position: fixed;
     bottom: -100px;
@@ -29,7 +19,7 @@
   .gallery {
     max-width: 1200px;
     position: relative;
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     padding-bottom: 180px;
@@ -39,27 +29,28 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
+      padding-top: 10%;
 
       .thumbnail {
         width: 100%;
         height: auto;
-        flex: 1 0 33%;
+        flex: 1 0 28%;
         margin: 10px;
         display: flex;
 
         cursor: pointer;
         .frame {
           overflow: hidden;
-          width: 440px;
+
           height: auto;
 
           .card {
-            height: 600px;
+            height: 400px;
             width: 100%;
             font-size: 22px;
             font-family: 'makbold';
             background-color: white;
-            color: #1a4633;
+            color: #938f89;
             font-family: 'Roboto Mono', monospace;
             padding: 10px;
 
@@ -68,12 +59,14 @@
               height: 70%;
               object-fit: cover;
               object-position: center;
+              padding: 30px;
             }
             .cardBottom {
               text-align: center;
               width: 100%;
+              font-size: 18px;
               .a {
-                color: #ea99c5;
+                color: #f29283;
                 display: block;
                 font-family: 'neue_metanabold';
               }

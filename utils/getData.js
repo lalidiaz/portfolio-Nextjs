@@ -39,25 +39,3 @@ export function getPaths() {
     };
   });
 }
-
-// // get paths for tags
-// export function getPathTags() {
-//   const tags = [
-//     'Animation',
-//     'Editorial',
-//     'Illustration',
-//     'Cover-design',
-//     'Packaging',
-//     'Photography',
-//     'Visual-Identity',
-//     'Poster'
-//   ];
-//   const mapTags = tags.map((tag) => {
-//     return {
-//       params: {
-//         tag
-//       }
-//     };
-//   });
-//   return mapTags;
-// }

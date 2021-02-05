@@ -1,13 +1,13 @@
 {
   "ferminWeb": {
-    "name": "Fermin Guerrero's Graphic and Type Designer web",
+    "name": "Fermin Guerrero's web",
     "slug": "fermin-guerrero-web",
     "id": 1,
     "image": "/fermin.jpeg",
     "techStack": "NextJs + Matierial UI",
     "githubLink": "https://github.com/lalidiaz/FerminGuerreroWeb-NextJs",
     "url": "https://ferminguerrero.com/",
-    "description": "Very happy to present Fermin Guerrero's personal web page, he is a type and graphic designer.",
+    "description": "Very happy to present Fermin Guerrero's personal web page, he is a type and graphic designer. This is a profesional project.",
     "type": "Freelance job"
   },
   "portfolioSecond": {

@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import { AnimatePresence } from 'framer-motion';
+import Footer from '@components/Footer';
 
 function handleExitComplete() {
   if (typeof window !== 'undefined') {
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }) {
     <AnimatePresence exitBeforeEnter onExitComplete={handleExitComplete}>
       <div className="maiWrapper">
         <Component {...pageProps} />
+        <Footer />
       </div>
     </AnimatePresence>
   );

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import styles from './contact.module.scss';
 import Link from 'next/link';
-
+import Back from 'components/Back';
 import CustomCursor from '@components/CustomCursor';
 
 //icons
@@ -13,11 +13,6 @@ import { HiOutlineMailOpen } from 'react-icons/hi';
 const transition = {
   duration: 1,
   ease: [0.43, 0.13, 0.23, 0.96]
-};
-
-const backVariants = {
-  exit: { x: 100, opacity: 0, transition },
-  enter: { x: 0, opacity: 1, transition: { delay: 1, ...transition } }
 };
 
 const boxVariants = {
@@ -51,15 +46,11 @@ export default function Contact() {
         animate="enter"
         exit="exit"
       >
-        <motion.div className={styles.back} variants={backVariants}>
-          <Link href="/">
-            <a className={styles.a}>← Back</a>
-          </Link>
-        </motion.div>
+        <Back />
 
         <div className={styles.contentWrapper}>
           <div className={styles.text}>
-            <p>
+            <p className={styles.p}>
               Striving to create uniqueness.
               <br />
               Always happy to hear from you. ツ

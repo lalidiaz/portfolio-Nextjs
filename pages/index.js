@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.scss';
 // import Presentation from '@components/Presentation';
 //import CustomCursor from '@components/CustomCursor';
-import Footer from '@components/Footer';
+
 import Burger from '@components/Burger';
 import CircleImg from '../public/circle.svg';
 
@@ -24,10 +24,7 @@ export default function Home(props) {
           <h2 className={styles.h2}>Hi there!</h2>
           <h3 className={styles.h3}>I'm a Front End Developer.</h3>
         </div>
-
         <Burger />
-
-        <Footer />
       </main>
     </>
   );

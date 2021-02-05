@@ -1,4 +1,4 @@
-import SingleImage from '@components/SingleImage';
+import DetailProject from '@components/DetailProject';
 import React from 'react';
 
 // utils
@@ -7,12 +7,19 @@ import { getProject, getPaths } from 'utils/getData';
 const Index = ({ data }) => {
   return (
     <>
-      <SingleImage data={data} />
-       {data.map((element) => (
+      {data.map((element) => (
         <>
-         <SingleImage name={element.name} description={element.description} />
+          <DetailProject
+            name={element.name}
+            description={element.description}
+            image={element.image}
+            techStack={element.techStack}
+            githubLink={element.githubLink}
+            url={element.url}
+            type={element.type}
+          />
         </>
-      ))} 
+      ))}
     </>
   );
 };

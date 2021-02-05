@@ -1,6 +1,7 @@
 import styles from './projects.module.scss';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import Back from 'components/Back';
 //Data fetching
 import { getProjectsData } from 'utils/getData';
 
@@ -23,10 +24,6 @@ const frameVariants = {
 const imageVariants = {
   hover: { scale: 1.1 }
 };
-const backVariants = {
-  exit: { x: 100, opacity: 0, transition },
-  enter: { x: 0, opacity: 1, transition: { delay: 1, ...transition } }
-};
 
 export default function Projects({ data }) {
   return (
@@ -38,11 +35,7 @@ export default function Projects({ data }) {
         exit="exit"
       >
         <div className={styles.hero}>
-          <motion.div className={styles.back} variants={backVariants}>
-            <Link href="/">
-              <a className={styles.a}>← Back</a>
-            </Link>
-          </motion.div>
+          <Back />
           <h1 className={styles.h1}>Projects</h1>
           <div className={styles.gallery}>
             <motion.div
