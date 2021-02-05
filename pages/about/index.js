@@ -59,6 +59,7 @@ export default function About() {
               whileHover={{
                 scale: 0.8
               }}
+              whileTap={{ scale: 0.8 }}
             >
               <a className={styles.a}>
                 <BsQuestionCircle /> Why I choose NextJs and why I love it?

@@ -82,12 +82,14 @@ const DetailProject = ({
             .
           </p>
         </div>
-        <motion.img
-          className={styles.img}
-          variants={imageVariants}
-          src={image}
-          alt="development-project-front-end"
-        />
+        <div className={styles.imageContainer}>
+          <motion.img
+            className={styles.img}
+            variants={imageVariants}
+            src={image}
+            alt="development-project-front-end"
+          />
+        </div>
       </div>
     </motion.div>
   </>

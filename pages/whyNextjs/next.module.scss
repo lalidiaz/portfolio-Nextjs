@@ -3,11 +3,15 @@
 .aboutNext {
   font-size: 20px;
   width: 100%;
-  padding: 40px;
+  padding: 80px 20px 0px 20px;
   background: #5e489c;
   color: white;
   font-family: 'sk-modernistregular';
   line-height: 1.4;
+
+  @include desktop {
+    padding: 40px;
+  }
 
   .back {
     position: fixed;
@@ -61,8 +65,20 @@
     .gif {
       .img {
         border-radius: 50%;
-        width: 300px;
-        height: 300px;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 50px;
+
+        @include tablet {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 40px;
+        }
+        @include desktop {
+          width: 300px;
+          height: 300px;
+          margin-bottom: 0px;
+        }
       }
     }
   }

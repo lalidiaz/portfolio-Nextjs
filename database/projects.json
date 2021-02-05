@@ -73,7 +73,7 @@
     "techStack": "React Js + Styled Components + React Helmet (SEO) + GraphQl + React Apollo",
     "githubLink": "https://github.com/lalidiaz/Tigram-App",
     "url": "https://tigram-app.lalidiaz.vercel.app/",
-    "description": "This is an Instagram clone for pets (because I love animals 💖), you can log in and log out (Authentification with firebase), like pictures, add to your favourites and delete.",
+    "description": "This is an Instagram clone for pets (because I love animals 💖), you can log in and log out (with authentification), like pictures, add to your favourites and delete.",
     "type": "Desktop & Movile App"
   },
   "todo": {
@@ -106,7 +106,7 @@
     "techStack": "NextJs + Firebase",
     "githubLink": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
     "url": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
-    "description": "Twitter Clon with login authentification with Github authentification 💪🏽 Firebase: To keep my Devitts (tweets), the devitts update in real time everytime I write one!. It will show the time was created and you can access to that Devitt if you want to. Firebase to keep the tweets and its info in a data base.",
+    "description": "Twitter Clon with login authentification with Github authentification in Firebase: To keep my Devitts (tweets), the devitts update in real time everytime I write one!. It will show the time was created and you can access to that Devitt if you want to. Firebase to keep the tweets and its info in a data base.",
     "type": "Desktop & Movile App"
   },
   "prevPort": {
@@ -124,7 +124,7 @@
     "name": "Search engine, e-commerce",
     "slug": "search-engine",
     "id": 12,
-    "image": "search.png",
+    "image": "/search.png",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/SearchEngineReact",
     "url": "https://fetch-mercadolibre.lalidiaz.vercel.app/",

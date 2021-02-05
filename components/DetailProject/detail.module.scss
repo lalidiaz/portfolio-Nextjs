@@ -57,16 +57,24 @@
       align-items: center;
     }
 
-    .img {
-      width: 100%;
+    .imageContainer {
+      width: 500px;
       height: auto;
-      padding: 0px 20px 80px 20px;
-
-      @include tablet {
+      margin: 20px;
+      padding: 30px;
+      .img {
         width: 100%;
-      }
-      @include desktop {
-        width: 50%;
+        height: 100%;
+        padding: 0px 20px 80px 20px;
+
+        @include tablet {
+          width: 100%;
+          padding: 0px;
+        }
+        @include desktop {
+          width: 100%;
+          padding: 0px;
+        }
       }
     }
     .text {

@@ -45,34 +45,35 @@ export default function Projects({ data }) {
               variants={{ exit: { transition: { staggerChildren: 0.1 } } }}
             >
               {Object.values(data).map((element) => (
-                <motion.div
-                  className={styles.thumbnail}
-                  variants={thumbnailVariants}
-                  key={element.id}
-                >
+                <Link href={`/project/${element.slug}`}>
                   <motion.div
-                    className={styles.frame}
-                    whileHover="hover"
-                    variants={frameVariants}
-                    transition={transition}
+                    className={styles.thumbnail}
+                    variants={thumbnailVariants}
+                    key={element.id}
                   >
-                    <div className={styles.card}>
-                      <motion.img
-                        className={styles.image}
-                        src={element.image}
-                        alt={element.name}
-                        variants={imageVariants}
-                        transition={transition}
-                      />
-                      <div className={styles.cardBottom}>
-                        <p className={styles.projectName}>{element.name}</p>
-                        <Link href={`/project/${element.slug}`}>
+                    <motion.div
+                      className={styles.frame}
+                      whileHover="hover"
+                      variants={frameVariants}
+                      transition={transition}
+                      whileTap={{ scale: 1, x: '-4px', y: '4px' }}
+                    >
+                      <div className={styles.card}>
+                        <motion.img
+                          className={styles.image}
+                          src={element.image}
+                          alt={element.name}
+                          variants={imageVariants}
+                          transition={transition}
+                        />
+                        <div className={styles.cardBottom}>
+                          <p className={styles.projectName}>{element.name}</p>
                           <a className={styles.a}>Click me!</a>
-                        </Link>
+                        </div>
                       </div>
-                    </div>
+                    </motion.div>
                   </motion.div>
-                </motion.div>
+                </Link>
               ))}
             </motion.div>
           </div>
