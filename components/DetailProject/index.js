@@ -58,6 +58,10 @@ const DetailProject = ({
             <span className={styles.span}>Tech stack: {techStack}.</span>
           </p>
           <p>
+            <BiCodeCurly />
+            <span className={styles.span}>type of project: {type}. </span>
+          </p>
+          <p>
             <BsCodeSlash />
             <span className={styles.span}>
               See the code{' '}
@@ -69,16 +73,11 @@ const DetailProject = ({
           </p>
 
           <p>
-            <BiCodeCurly />
-            <span className={styles.span}>type of project: {type}. </span>
-          </p>
-          <p>
             <ImLink />
-            <span className={styles.span}>
-              <a href={url} target="_blank">
-                {url}
-              </a>
-            </span>
+            <span className={styles.span}>See the demo</span>
+            <a href={url} target="_blank" style={{ paddingLeft: '10px' }}>
+              here
+            </a>
             .
           </p>
         </div>
