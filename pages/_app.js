@@ -10,7 +10,9 @@ function handleExitComplete() {
 function MyApp({ Component, pageProps }) {
   return (
     <AnimatePresence exitBeforeEnter onExitComplete={handleExitComplete}>
-      <Component {...pageProps} />
+      <div className="maiWrapper">
+        <Component {...pageProps} />
+      </div>
     </AnimatePresence>
   );
 }

@@ -20,7 +20,9 @@ export function getProjectsData() {
 // get project
 export function getProject(path) {
   const projects = getProjectsData();
-  const filteredContent = projects.filter((element) => element.slug === path);
+  const filteredContent = Object.values(projects).filter(
+    (element) => element.slug === path
+  );
   return filteredContent;
 }
 
@@ -37,3 +39,25 @@ export function getPaths() {
     };
   });
 }
+
+// // get paths for tags
+// export function getPathTags() {
+//   const tags = [
+//     'Animation',
+//     'Editorial',
+//     'Illustration',
+//     'Cover-design',
+//     'Packaging',
+//     'Photography',
+//     'Visual-Identity',
+//     'Poster'
+//   ];
+//   const mapTags = tags.map((tag) => {
+//     return {
+//       params: {
+//         tag
+//       }
+//     };
+//   });
+//   return mapTags;
+// }

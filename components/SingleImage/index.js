@@ -20,10 +20,21 @@ const backVariants = {
   enter: { x: 0, opacity: 1, transition: { delay: 1, ...transition } }
 };
 
-const SingleImage = ({ data }) => (
+const SingleImage = ({ name, description }) => (
   <>
-
-    <style>
+    <motion.div className="single" initial="exit" animate="enter" exit="exit">
+      <>
+        <h1 style={{ color: 'blue', fontSize: '44px' }}>{name}</h1>
+        <p>{description}</p>
+      </>
+      <motion.img variants={imageVariants} src={image} alt="La foto" />
+      <motion.div className="back" variants={backVariants}>
+        <Link href="/">
+          <a>← Back</a>
+        </Link>
+      </motion.div>
+    </motion.div>
+    {/* <style>
       {`
         .single {
             overflow: hidden;
@@ -47,7 +58,7 @@ const SingleImage = ({ data }) => (
             text-decoration: none;
         }
 `}
-    </style>
+    </style> */}
   </>
 );
 

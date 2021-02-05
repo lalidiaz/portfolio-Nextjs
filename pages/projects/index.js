@@ -2,7 +2,7 @@ import styles from './projects.module.scss';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 //Data fetching
-import { getProjectsData } from 'utils/dataFetch';
+import { getProjectsData } from 'utils/getData';
 
 const transition = { duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] };
 
@@ -52,10 +52,11 @@ export default function Projects({ data }) {
               exit="exit"
               variants={{ exit: { transition: { staggerChildren: 0.1 } } }}
             >
-              {Object.values(data).map((element, id, i) => (
+              {Object.values(data).map((element) => (
                 <motion.div
                   className={styles.thumbnail}
                   variants={thumbnailVariants}
+                  key={element.id}
                 >
                   <motion.div
                     className={styles.frame}
@@ -73,11 +74,7 @@ export default function Projects({ data }) {
                       />
                       <div className={styles.cardBottom}>
                         <p className={styles.projectName}>{element.name}</p>
-                        <Link
-                          href="/[project]/[project]"
-                          as={`/project/${element.id}`}
-                          scroll={false}
-                        >
+                        <Link href={`/project/${element.slug}`}>
                           <a className={styles.a}>Click me!</a>
                         </Link>
                       </div>

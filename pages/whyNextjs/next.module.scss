@@ -1,5 +1,5 @@
 .aboutNext {
-  font-size: 33px;
+  font-size: 20px;
   width: 100%;
   padding: 40px;
   background: #5e489c;
@@ -8,9 +8,8 @@
   line-height: 1.4;
 
   .back {
-    position: fixed;
     top: 50px;
-    right: 50px;
+    left: 50px;
     font-size: 54px;
     z-index: 1;
     .a {
@@ -19,9 +18,11 @@
   }
   .next {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    text-align: left;
     align-items: flex-end;
     width: 100%;
+    padding-top: 50px;
 
     .p {
       width: 73%;

@@ -54,7 +54,6 @@
     "description": "With this app you can check all the Crypto currencies available in the market, in which markets you can find them and also information about the specific one you selected. It will show you if the price went up or down in the last 24 hours and in USD as well! You can add your favourite curriencies and delete them as well.",
     "type": "Mobile App"
   },
-
   "recipe": {
     "name": "Recipe App",
     "slug": "recipe-app",
