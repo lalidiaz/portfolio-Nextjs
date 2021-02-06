@@ -1,6 +1,7 @@
 import styles from './next.module.scss';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Head from 'next/head'
 
 const transition = {
   duration: 1,
@@ -15,6 +16,11 @@ const backVariants = {
 export default function WhyNextjs() {
   return (
     <>
+      <Head>
+        <title>Why Nextjs?</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <div className={styles.aboutNext}>
         <motion.div
           className={styles.wrapper}

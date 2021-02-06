@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Back from 'components/Back';
 import { getProjectsData } from 'utils/getData';
 import Footer from 'components/Footer';
+import Head from 'next/head';
 
 const transition = { duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] };
 
@@ -28,6 +29,10 @@ const imageVariants = {
 export default function Projects({ data }) {
   return (
     <>
+      <Head>
+        <title>Projects</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <motion.div
         className={styles.wrapper}
         initial="exit"

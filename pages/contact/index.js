@@ -6,6 +6,7 @@ import { IoDocumentAttachOutline } from 'react-icons/io5';
 import { IoLogoLinkedin } from 'react-icons/io';
 import { GoMarkGithub } from 'react-icons/go';
 import { HiOutlineMailOpen } from 'react-icons/hi';
+import Head from 'next/head';
 
 const boxVariants = {
   out: {
@@ -32,6 +33,10 @@ export default function Contact() {
   return (
     <>
       {/* <CustomCursor /> */}
+      <Head>
+        <title>Contact me!</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <motion.div
         className={styles.wrapper}
         initial="exit"

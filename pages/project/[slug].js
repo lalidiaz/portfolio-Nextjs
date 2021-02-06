@@ -1,5 +1,6 @@
 import DetailProject from '@components/DetailProject';
 import React from 'react';
+import Head from 'next/head';
 
 // utils
 import { getProject, getPaths } from 'utils/getData';
@@ -7,6 +8,10 @@ import { getProject, getPaths } from 'utils/getData';
 const Index = ({ data }) => {
   return (
     <>
+      <Head>
+        <title>Project</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       {data.map((element) => (
         <>
           <DetailProject
