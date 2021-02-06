@@ -40,7 +40,8 @@ export default function About() {
               <p>
                 HTML5 / CSS3 / Javascript (ES6) / ReactJs / React Apollo /
                 NextJs / Jest (Testing) / Axios / Typescript / AWS Amplify /
-                Graphql / Git / Material UI / Styled Components / Sass.
+                Graphql / Git / Material UI / Styled Components / Sass / Browser
+                developer tools / Responsive Design.
               </p>
             </section>
           </section>
