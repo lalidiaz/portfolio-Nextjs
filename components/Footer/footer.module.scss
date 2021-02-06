@@ -8,11 +8,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'roboto_monoregular';
   font-size: 16px;
   background: white;
   color: black;
-  padding: 14px;
+  padding-bottom: 5px;
 
   @include tablet {
     display: flex;
@@ -20,6 +20,7 @@
     align-items: center;
     flex-direction: row;
     height: auto;
+    padding: 5px;
   }
   @include desktop {
     display: flex;
@@ -27,6 +28,7 @@
     align-items: center;
     flex-direction: row;
     height: 20px;
+    padding: 15px;
   }
 
   .a {
