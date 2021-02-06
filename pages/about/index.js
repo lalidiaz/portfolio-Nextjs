@@ -24,7 +24,7 @@ export default function About() {
       <div className={styles.aboutHero}>
         <motion.div initial="exit" animate="enter" exit="exit">
           <motion.div className={styles.back} variants={backVariants}>
-            <Link href="/projects">
+            <Link href="/">
               <a>← Back</a>
             </Link>
           </motion.div>
