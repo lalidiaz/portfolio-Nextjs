@@ -5,11 +5,11 @@
   background: #f29283;
   top: 0;
   padding-bottom: 50px;
-  height: 100%;
+  height: 100vh;
 
   @include tablet {
     padding-bottom: 30px;
-    height: 100%;
+    height: 100vh;
   }
   @include desktop {
     padding-bottom: 0px;
