@@ -22,12 +22,7 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.aboutHero}>
-        <motion.div
-          className={styles.wrapper}
-          initial="exit"
-          animate="enter"
-          exit="exit"
-        >
+        <motion.div initial="exit" animate="enter" exit="exit">
           <motion.div className={styles.back} variants={backVariants}>
             <Link href="/projects">
               <a>← Back</a>
