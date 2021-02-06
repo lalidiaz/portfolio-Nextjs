@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import styles from './detail.module.scss';
-import { GoInfo } from 'react-icons/go';
+import { ImInfo } from 'react-icons/im';
 import { FiTool } from 'react-icons/fi';
 import { BsCodeSlash } from 'react-icons/bs';
 import { BiCodeCurly } from 'react-icons/bi';
@@ -51,18 +51,18 @@ const DetailProject = ({
         <div className={styles.text}>
           <h1 className={styles.h1}>{name}.</h1>
           <p>
-            <GoInfo /> <span className={styles.span}>{description}</span>
+            <span>{description}</span>
           </p>
           <p>
-            <FiTool />
+            <FiTool size={20} />
             <span className={styles.span}>Tech stack: {techStack}.</span>
           </p>
           <p>
-            <BiCodeCurly />
+            <BiCodeCurly size={20} />
             <span className={styles.span}>type of project: {type}. </span>
           </p>
           <p>
-            <BsCodeSlash />
+            <BsCodeSlash size={20} />
             <span className={styles.span}>
               See the code{' '}
               <a href={githubLink} target="_blank">
@@ -73,7 +73,7 @@ const DetailProject = ({
           </p>
 
           <p>
-            <ImLink />
+            <ImLink size={20} />
             <span className={styles.span}>See the demo</span>
             <a href={url} target="_blank" style={{ paddingLeft: '10px' }}>
               here
