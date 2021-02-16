@@ -57,7 +57,7 @@
         width: 100%;
         height: auto;
         flex: 1 0 100%;
-        padding: 20px;
+        padding: 10px;
         display: flex;
 
         @include tablet {
@@ -85,14 +85,14 @@
             background-color: white;
             color: #938f89;
             font-family: 'roboto_monoregular';
-            padding: 10px;
+            padding: 5px;
 
             .image {
               width: 100%;
               height: 70%;
               object-fit: cover;
               object-position: center;
-              padding: 30px;
+              padding: 10px;
             }
             .cardBottom {
               text-align: center;

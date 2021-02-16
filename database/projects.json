@@ -21,11 +21,65 @@
     "description": "This is a demo about animations. I choose Perle Fine because she was very talented.",
     "type": "Animation demo"
   },
-
+  "accordion": {
+    "name": "Accordion",
+    "slug": "accordion",
+    "id": 3,
+    "image": "/accordion.png",
+    "techStack": "ReactJs",
+    "githubLink": "https://github.com/lalidiaz/accordion-ReactJs",
+    "url": "https://accordion-six.vercel.app/",
+    "description": "This is part of a series of projects I am working on to refresh ReactJs concepts. I am working on an article about it so I can share it with the community once it's finish. 🙌",
+    "type": "Project"
+  },
+  "birthday": {
+    "name": "Birthday app",
+    "slug": "birthday-app",
+    "id": 4,
+    "image": "/birthday.png",
+    "techStack": "ReactJs",
+    "githubLink": "https://github.com/lalidiaz/birthday-app-ReactJs",
+    "url": "https://birthday-app-eight.vercel.app/",
+    "description": "This is part of a series of projects I am working on to refresh ReactJs concepts. I am working on an article about it so I can share it with the community once it's finish. 🙌",
+    "type": "Project"
+  },
+  "menu": {
+    "name": "Food Menu",
+    "slug": "food-menu",
+    "id": 5,
+    "image": "/menu.png",
+    "techStack": "ReactJs",
+    "githubLink": "https://github.com/lalidiaz/birthday-app-ReactJs",
+    "url": "https://birthday-app-eight.vercel.app/",
+    "description": "This is part of a series of projects I am working on to refresh ReactJs concepts. I am working on an article about it so I can share it with the community once it's finish. 🙌",
+    "type": "Project"
+  },
+  "reviews": {
+    "name": "Reviews",
+    "slug": "reviews",
+    "id": 6,
+    "image": "/reviews.png",
+    "techStack": "ReactJs",
+    "githubLink": "https://github.com/lalidiaz/reviews-project-ReactJs",
+    "url": "https://reviews-tau.vercel.app/",
+    "description": "This is part of a series of projects I am working on to refresh ReactJs concepts. I am working on an article about it so I can share it with the community once it's finish. 🙌",
+    "type": "Project"
+  },
+  "tours": {
+    "name": "Tours App",
+    "slug": "tours",
+    "id": 7,
+    "image": "/tours.png",
+    "techStack": "ReactJs",
+    "githubLink": "https://github.com/lalidiaz/tours-project-ReactJs",
+    "url": "https://tours-seven.vercel.app/",
+    "description": "This is part of a series of projects I am working on to refresh ReactJs concepts. I am working on an article about it so I can share it with the community once it's finish. 🙌",
+    "type": "Project"
+  },
   "portfolioSecond": {
     "name": "Personal Portfolio Dev",
     "slug": "personal-portfolio",
-    "id": 3,
+    "id": 8,
     "image": "/otherportfolio.png",
     "techStack": "ReactJs + React Router",
     "githubLink": "https://github.com/lalidiaz/new-personal-portfolio",
@@ -36,7 +90,7 @@
   "reduxCourse": {
     "name": "Redux Course",
     "slug": "redux-course",
-    "id": 4,
+    "id": 9,
     "image": "/reduxcourse.png",
     "techStack": "React-Redux",
     "githubLink": "https://github.com/lalidiaz/Redux-Course",
@@ -47,7 +101,7 @@
   "spotify": {
     "name": "Spotify Clone",
     "slug": "spotify-clone",
-    "id": 5,
+    "id": 10,
     "image": "/spotify.png",
     "techStack": "React Native + GraphQL + Typescript + AWS Amplify + AWS AppSync",
     "githubLink": "https://github.com/lalidiaz/Spotify-Clone-React-Native",
@@ -58,7 +112,7 @@
   "crypto": {
     "name": "CryptoTracker App",
     "slug": "crypto-tracker-app",
-    "id": 6,
+    "id": 11,
     "image": "/crypto.png",
     "techStack": "React Native",
     "githubLink": "https://github.com/lalidiaz/cryptotracker-React-Native",
@@ -69,7 +123,7 @@
   "recipe": {
     "name": "Recipe App",
     "slug": "recipe-app",
-    "id": 7,
+    "id": 12,
     "image": "/recipe.png",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/Recipe-ReactJc",
@@ -80,7 +134,7 @@
   "insta": {
     "name": "Instagram Clone",
     "slug": "insta-clone",
-    "id": 8,
+    "id": 13,
     "image": "/instagram.png",
     "techStack": "React Js + Styled Components + React Helmet (SEO) + GraphQl + React Apollo",
     "githubLink": "https://github.com/lalidiaz/Tigram-App",
@@ -91,7 +145,7 @@
   "todo": {
     "name": "To-Do List",
     "slug": "to-do-list",
-    "id": 9,
+    "id": 14,
     "image": "/todo.png",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/toDoListReactJs",
@@ -102,7 +156,7 @@
   "todoredux": {
     "name": "To-Do List Redux",
     "slug": "to-do-redux",
-    "id": 10,
+    "id": 15,
     "image": "/todoredux.png",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/toDoList-Redux",
@@ -113,7 +167,7 @@
   "twitter": {
     "name": "Twitter Clone",
     "slug": "twitter-clone",
-    "id": 11,
+    "id": 16,
     "image": "/twitter.png",
     "techStack": "NextJs + Firebase",
     "githubLink": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
@@ -124,7 +178,7 @@
   "prevPort": {
     "name": "Previous Personal Portfolio",
     "slug": "first-portfolio",
-    "id": 12,
+    "id": 17,
     "image": "/prevportfolio.png",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
@@ -135,7 +189,7 @@
   "searchengine": {
     "name": "Search engine, e-commerce",
     "slug": "search-engine",
-    "id": 13,
+    "id": 18,
     "image": "/search.png",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/SearchEngineReact",
@@ -146,7 +200,7 @@
   "bali": {
     "name": "Bali Experience",
     "slug": "bali-experience",
-    "id": 14,
+    "id": 19,
     "image": "/bali.png",
     "techStack": "CSS + HTML5",
     "githubLink": "https://github.com/lalidiaz/Bali-Experience-3DCards",
@@ -157,7 +211,7 @@
   "weather": {
     "name": "Weather App",
     "slug": "weather-app",
-    "id": 15,
+    "id": 20,
     "image": "/weather.png",
     "techStack": "CSS + HTML + Javascript Vanilla",
     "githubLink": "https://github.com/lalidiaz/Weather-Fetch",
@@ -168,7 +222,7 @@
   "artist": {
     "name": "Elizabeth's Web",
     "slug": "artist-web",
-    "id": 16,
+    "id": 21,
     "image": "/eli.png",
     "techStack": "CSS + HTML + Javascript Vanilla",
     "githubLink": "https://github.com/lalidiaz/Ely-AguileraArtWeb",
@@ -179,7 +233,7 @@
   "parallax": {
     "name": "La Muralla Roja Blog (The Red Wall Blog)",
     "slug": "red-wall",
-    "id": 17,
+    "id": 22,
     "image": "/parallax.png",
     "techStack": "CSS + HTML",
     "githubLink": "https://github.com/lalidiaz/La-Muralla-Roja",

@@ -10,7 +10,6 @@ export default function Home(props) {
     <>
       <Head>
         <title>Laura Diaz</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <CustomCursor /> */}
 
@@ -24,7 +23,6 @@ export default function Home(props) {
           <h3 className={styles.h3}>I'm a Front End Developer.</h3>
         </div>
         <Burger />
- 
       </main>
     </>
   );
