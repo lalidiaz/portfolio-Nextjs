@@ -21,76 +21,111 @@
     "description": "This is a demo about animations. I choose Perle Fine because she was very talented.",
     "type": "Animation demo"
   },
-  "accordion": {
-    "name": "Accordion",
-    "slug": "accordion",
+  "todo": {
+    "name": "To-Do List",
+    "slug": "to-do-list",
     "id": 3,
-    "image": "/accordion.png",
-    "techStack": "ReactJs",
-    "githubLink": "https://github.com/lalidiaz/accordion-ReactJs",
-    "url": "https://accordion-six.vercel.app/",
-    "description": "This is part of a series of projects I am working on to refresh ReactJs concepts. I am working on an article about it so I can share it with the community once it's finish. 🙌",
-    "type": "Project"
+    "image": "/todo.png",
+    "techStack": "React Js",
+    "githubLink": "https://github.com/lalidiaz/grocery-app-ReactJs",
+    "url": "https://grocery-app-one.vercel.app/",
+    "description": "This is the 10th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. This is a grocery app, you can add items to the list, remove and modify the name of the item. If you refresh the page, the items will still be there because I used Local Storage to store the items.",
+    "type": "App"
   },
-  "birthday": {
-    "name": "Birthday app",
-    "slug": "birthday-app",
+  "colorGenerator": {
+    "name": "Color Generator",
+    "slug": "color-generator",
     "id": 4,
-    "image": "/birthday.png",
+    "image": "/color.png",
     "techStack": "ReactJs",
-    "githubLink": "https://github.com/lalidiaz/birthday-app-ReactJs",
-    "url": "https://birthday-app-eight.vercel.app/",
-    "description": "This is part of a series of projects I am working on to refresh ReactJs concepts. I am working on an article about it so I can share it with the community once it's finish. 🙌",
-    "type": "Project"
+    "githubLink": "https://github.com/lalidiaz/colors-generator-ReactJs",
+    "url": "https://colors-generator.vercel.app/",
+    "description": "This is the 9th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. Get lightness or darkness of a color, if you write something that is not hex code, the input turn red. I used values.js to get the values.",
+    "type": "App"
+  },
+  "paragrahp": {
+    "name": "Get Paragraph App",
+    "slug": "paragraph-app",
+    "id": 5,
+    "image": "/paragraph.png",
+    "techStack": "ReactJs",
+    "githubLink": "https://github.com/lalidiaz/paragraph-generator-ReactJs",
+    "url": "https://words-generator.vercel.app/",
+    "description": "This is the 8th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. Get a number of paragraphs by choosing a number and clicking the button.",
+    "type": "App"
+  },
+  "slider": {
+    "name": "Slider App",
+    "slug": "slide-app",
+    "id": 6,
+    "image": "/slider.png",
+    "techStack": "ReactJs",
+    "githubLink": "https://github.com/lalidiaz/slider-reactJs",
+    "url": "https://slider-kohl.vercel.app/",
+    "description": "This is the 7th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. This is a Slider app.",
+    "type": "App"
   },
   "menu": {
     "name": "Food Menu",
     "slug": "food-menu",
-    "id": 5,
+    "id": 7,
     "image": "/menu.png",
     "techStack": "ReactJs",
-    "githubLink": "https://github.com/lalidiaz/birthday-app-ReactJs",
-    "url": "https://birthday-app-eight.vercel.app/",
-    "description": "This is part of a series of projects I am working on to refresh ReactJs concepts. I am working on an article about it so I can share it with the community once it's finish. 🙌",
+    "githubLink": "https://github.com/lalidiaz/food-menu-ReactJs",
+    "url": "https://menu-lime.vercel.app/",
+    "description": "This is the 5th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. This is a menu app. You can choose the category and see what's in the menu.",
     "type": "Project"
   },
+  "accordion": {
+    "name": "Accordion",
+    "slug": "accordion",
+    "id": 8,
+    "image": "/accordion.png",
+    "techStack": "ReactJs",
+    "githubLink": "https://github.com/lalidiaz/accordion-ReactJs",
+    "url": "https://accordion-six.vercel.app/",
+    "description": "This is the 4th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. In this app you can read about Waitomo Caves (New Zeland), you can click the button to see more info.",
+    "type": "Project"
+  },
+
   "reviews": {
     "name": "Reviews",
     "slug": "reviews",
-    "id": 6,
+    "id": 9,
     "image": "/reviews.png",
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/reviews-project-ReactJs",
     "url": "https://reviews-tau.vercel.app/",
-    "description": "This is part of a series of projects I am working on to refresh ReactJs concepts. I am working on an article about it so I can share it with the community once it's finish. 🙌",
+    "description": "This is the 3rd project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. Reviews app. ",
     "type": "Project"
   },
   "tours": {
     "name": "Tours App",
     "slug": "tours",
-    "id": 7,
+    "id": 10,
     "image": "/tours.png",
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/tours-project-ReactJs",
     "url": "https://tours-seven.vercel.app/",
-    "description": "This is part of a series of projects I am working on to refresh ReactJs concepts. I am working on an article about it so I can share it with the community once it's finish. 🙌",
+    "description": "This is the 2nd project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. In this app you can delete the tours offers you are not interested in and refresh the list of tours. ",
     "type": "Project"
   },
-  "slider": {
-    "name": "Slider App",
-    "slug": "slide-app",
-    "id": 7,
-    "image": "/slider.png",
+  "birthday": {
+    "name": "Birthday app",
+    "slug": "birthday-app",
+    "id": 11,
+    "image": "/birthday.png",
     "techStack": "ReactJs",
-    "githubLink": "https://github.com/lalidiaz/slider-reactJs",
-    "url": "https://slider-kohl.vercel.app/",
-    "description": "This is part of a series of projects I am working on to refresh ReactJs concepts. I am working on an article about it so I can share it with the community once it's finish. 🙌",
+    "githubLink": "https://github.com/lalidiaz/birthday-app-ReactJs",
+    "url": "https://birthday-app-eight.vercel.app/",
+    "description": "This is the 1st project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. It's a birthday app which reminds you of today's birthdays. You can clear the list once you checked. ",
     "type": "Project"
   },
+
   "portfolioSecond": {
     "name": "Personal Portfolio Dev",
     "slug": "personal-portfolio",
-    "id": 8,
+    "id": 12,
     "image": "/otherportfolio.png",
     "techStack": "ReactJs + React Router",
     "githubLink": "https://github.com/lalidiaz/new-personal-portfolio",
@@ -98,10 +133,11 @@
     "description": "This was my previous personal portfolio, with a minimalist and simple UI.",
     "type": "Course"
   },
+
   "reduxCourse": {
     "name": "Redux Course",
     "slug": "redux-course",
-    "id": 9,
+    "id": 13,
     "image": "/reduxcourse.png",
     "techStack": "React-Redux",
     "githubLink": "https://github.com/lalidiaz/Redux-Course",
@@ -112,7 +148,7 @@
   "spotify": {
     "name": "Spotify Clone",
     "slug": "spotify-clone",
-    "id": 10,
+    "id": 14,
     "image": "/spotify.png",
     "techStack": "React Native + GraphQL + Typescript + AWS Amplify + AWS AppSync",
     "githubLink": "https://github.com/lalidiaz/Spotify-Clone-React-Native",
@@ -123,7 +159,7 @@
   "crypto": {
     "name": "CryptoTracker App",
     "slug": "crypto-tracker-app",
-    "id": 11,
+    "id": 15,
     "image": "/crypto.png",
     "techStack": "React Native",
     "githubLink": "https://github.com/lalidiaz/cryptotracker-React-Native",
@@ -134,7 +170,7 @@
   "recipe": {
     "name": "Recipe App",
     "slug": "recipe-app",
-    "id": 12,
+    "id": 16,
     "image": "/recipe.png",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/Recipe-ReactJc",
@@ -145,7 +181,7 @@
   "insta": {
     "name": "Instagram Clone",
     "slug": "insta-clone",
-    "id": 13,
+    "id": 17,
     "image": "/instagram.png",
     "techStack": "React Js + Styled Components + React Helmet (SEO) + GraphQl + React Apollo",
     "githubLink": "https://github.com/lalidiaz/Tigram-App",
@@ -153,21 +189,11 @@
     "description": "This is an Instagram clone for pets (because I love animals 💖), you can log in and log out (with authentification), like pictures, add to your favourites and delete.",
     "type": "Desktop & Movile App"
   },
-  "todo": {
-    "name": "To-Do List",
-    "slug": "to-do-list",
-    "id": 14,
-    "image": "/todo.png",
-    "techStack": "React Js",
-    "githubLink": "https://github.com/lalidiaz/toDoListReactJs",
-    "url": "https://react-todolist.lalidiaz.vercel.app/",
-    "description": "This a To-Do-List app where you can make a list of whatever you want 😀",
-    "type": "Desktop & Movile App"
-  },
+
   "todoredux": {
     "name": "To-Do List Redux",
     "slug": "to-do-redux",
-    "id": 15,
+    "id": 18,
     "image": "/todoredux.png",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/toDoList-Redux",
@@ -178,7 +204,7 @@
   "twitter": {
     "name": "Twitter Clone",
     "slug": "twitter-clone",
-    "id": 16,
+    "id": 19,
     "image": "/twitter.png",
     "techStack": "NextJs + Firebase",
     "githubLink": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
@@ -189,7 +215,7 @@
   "prevPort": {
     "name": "Previous Personal Portfolio",
     "slug": "first-portfolio",
-    "id": 17,
+    "id": 20,
     "image": "/prevportfolio.png",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
@@ -200,7 +226,7 @@
   "searchengine": {
     "name": "Search engine, e-commerce",
     "slug": "search-engine",
-    "id": 18,
+    "id": 21,
     "image": "/search.png",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/SearchEngineReact",
@@ -211,7 +237,7 @@
   "bali": {
     "name": "Bali Experience",
     "slug": "bali-experience",
-    "id": 19,
+    "id": 22,
     "image": "/bali.png",
     "techStack": "CSS + HTML5",
     "githubLink": "https://github.com/lalidiaz/Bali-Experience-3DCards",
@@ -222,7 +248,7 @@
   "weather": {
     "name": "Weather App",
     "slug": "weather-app",
-    "id": 20,
+    "id": 23,
     "image": "/weather.png",
     "techStack": "CSS + HTML + Javascript Vanilla",
     "githubLink": "https://github.com/lalidiaz/Weather-Fetch",
@@ -233,7 +259,7 @@
   "artist": {
     "name": "Elizabeth's Web",
     "slug": "artist-web",
-    "id": 21,
+    "id": 24,
     "image": "/eli.png",
     "techStack": "CSS + HTML + Javascript Vanilla",
     "githubLink": "https://github.com/lalidiaz/Ely-AguileraArtWeb",
@@ -244,7 +270,7 @@
   "parallax": {
     "name": "La Muralla Roja Blog (The Red Wall Blog)",
     "slug": "red-wall",
-    "id": 22,
+    "id": 25,
     "image": "/parallax.png",
     "techStack": "CSS + HTML",
     "githubLink": "https://github.com/lalidiaz/La-Muralla-Roja",
