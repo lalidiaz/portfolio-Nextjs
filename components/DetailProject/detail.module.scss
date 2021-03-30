@@ -6,10 +6,10 @@
   background-color: #1a4633;
   color: #ea99c5;
 
-  @include tablet {
+  @include respond(tablet) {
     height: 100%;
   }
-  @include desktop {
+  @include respond(desktop) {
     height: 100vh;
   }
 
@@ -24,7 +24,7 @@
       text-decoration: none;
     }
 
-    @include desktop {
+    @include respond(desktop) {
       position: fixed;
       top: 50px;
       left: 50px;
@@ -44,13 +44,13 @@
     height: 100%;
     padding-top: 90px;
 
-    @include tablet {
+    @include respond(tablet) {
       flex-direction: column;
       display: flex;
       justify-content: center;
       align-items: center;
     }
-    @include desktop {
+    @include respond(desktop) {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -67,11 +67,11 @@
         height: 100%;
         padding: 0px 40px 80px 40px;
 
-        @include tablet {
+        @include respond(tablet) {
           width: 100%;
           padding: 0px;
         }
-        @include desktop {
+        @include respond(desktop) {
           width: 100%;
           padding: 0px;
         }
@@ -83,12 +83,12 @@
       padding: 20px;
       font-family: 'roboto_monoregular';
 
-      @include tablet {
+      @include respond(tablet) {
         width: 100%;
         font-size: 20px;
         padding: 20px;
       }
-      @include desktop {
+      @include respond(desktop) {
         width: 50%;
         font-size: 20px;
         padding: 30px;

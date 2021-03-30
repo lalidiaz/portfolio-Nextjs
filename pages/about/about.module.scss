@@ -1,4 +1,4 @@
-@import 'styles/mixins';
+@import "styles/mixins";
 
 .aboutHero {
   color: #195fa6;
@@ -7,11 +7,11 @@
   padding-bottom: 50px;
   height: 100%;
 
-  @include tablet {
+  @include respond(tablet) {
     padding-bottom: 30px;
     height: 100%;
   }
-  @include desktop {
+  @include respond(desktop) {
     padding-bottom: 0px;
     height: 100vh;
   }
@@ -22,18 +22,18 @@
     left: 30px;
     font-size: 22px;
     z-index: 1;
-    font-family: 'neue_metanabold';
+    font-family: "neue_metanabold";
     .back a {
       text-decoration: none;
     }
 
-    @include desktop {
+    @include respond(desktop) {
       position: absolute;
       top: 50px;
       left: 50px;
       font-size: 36px;
       z-index: 1;
-      font-family: 'neue_metanabold';
+      font-family: "neue_metanabold";
       .back a {
         text-decoration: none;
       }
@@ -41,18 +41,18 @@
   }
   .section {
     font-size: 20px;
-    font-family: 'roboto_monoregular';
+    font-family: "roboto_monoregular";
     width: 100%;
     text-align: left;
     height: 100%;
     margin-block-start: 0px;
     padding: 80px 20px 10px 20px;
 
-    @include tablet {
+    @include respond(tablet) {
       padding: 80px 30px 10px 30px;
       font-size: 22px;
     }
-    @include desktop {
+    @include respond(desktop) {
       padding: 100px;
       font-size: 26px;
     }
@@ -60,31 +60,31 @@
 
   .stack {
     font-size: 20px;
-    font-family: 'roboto_monoregular';
+    font-family: "roboto_monoregular";
 
     .h3 {
-      font-family: 'neue_metanabold';
+      font-family: "neue_metanabold";
     }
-    @include tablet {
+    @include respond(tablet) {
       font-size: 22px;
     }
-    @include desktop {
+    @include respond(desktop) {
       font-size: 26px;
     }
   }
   .nextjs {
     width: 100%;
     display: flex;
-    font-family: 'neue_metanabold';
+    font-family: "neue_metanabold";
     padding: 0px 20px 0px 20px;
 
     .a {
       display: block;
       font-size: 20px;
-      @include tablet {
+      @include respond(tablet) {
         font-size: 22px;
       }
-      @include desktop {
+      @include respond(desktop) {
         font-size: 30px;
       }
     }

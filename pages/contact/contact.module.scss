@@ -9,11 +9,11 @@
   padding: 30px;
   height: 100vh;
 
-  @include tablet {
+  @include respond(tablet) {
     font-size: 30px;
     padding: 60px;
   }
-  @include desktop {
+  @include respond(desktop) {
     font-size: 60px;
     padding: 100px;
     height: 100%;
@@ -30,7 +30,7 @@
       text-decoration: none;
     }
 
-    @include desktop {
+    @include respond(desktop) {
       position: fixed;
       top: 50px;
       left: 50px;
@@ -48,10 +48,10 @@
     justify-content: space-between;
     height: 80%;
 
-    @include tablet {
+    @include respond(tablet) {
       height: 90%;
     }
-    @include desktop {
+    @include respond(desktop) {
       height: 100%;
     }
 
@@ -59,10 +59,10 @@
       padding-top: 80px;
       line-height: 1.2;
 
-      @include tablet {
+      @include respond(tablet) {
         padding-top: 50px;
       }
-      @include desktop {
+      @include respond(desktop) {
         padding-top: 10px;
       }
 
@@ -73,10 +73,10 @@
         display: flex;
         flex-direction: column;
         font-family: 'roboto_monoregular';
-        @include tablet {
+        @include respond(tablet) {
           font-size: 22px;
         }
-        @include desktop {
+        @include respond(desktop) {
           font-size: 30px;
         }
         .a {

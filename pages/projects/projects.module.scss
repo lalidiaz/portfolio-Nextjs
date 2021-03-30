@@ -15,10 +15,10 @@
     pointer-events: none;
     font-family: 'neue_metanabold';
 
-    @include tablet {
+    @include respond(tablet) {
       font-size: 80px;
     }
-    @include desktop {
+    @include respond(desktop) {
       font-size: 120px;
       bottom: -80px;
     }
@@ -33,10 +33,10 @@
     padding-bottom: 150px;
     padding-top: 50px;
 
-    @include tablet {
+    @include respond(tablet) {
       padding-bottom: 200px;
     }
-    @include desktop {
+    @include respond(desktop) {
       padding-bottom: 180px;
     }
 
@@ -46,7 +46,7 @@
       flex-direction: row;
       padding-top: 5%;
 
-      @include desktop {
+      @include respond(desktop) {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -60,11 +60,11 @@
         padding: 10px;
         display: flex;
 
-        @include tablet {
+        @include respond(tablet) {
           flex: 1 0 50%;
         }
 
-        @include desktop {
+        @include respond(desktop) {
           width: 100%;
           height: auto;
           flex: 1 0 28%;

@@ -34,7 +34,12 @@ export default function WhyNextjs() {
             </Link>
           </motion.div>
           <section className={styles.next}>
-            <p className={styles.p}>
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5, ease: "easeIn" }}
+              className={styles.p}
+            >
               You are probably wondering why to choose build your web in
               NextJs...do not worry! I can help you giving you some information
               about this amazing technology (which I love). So lets dig into
@@ -68,9 +73,16 @@ export default function WhyNextjs() {
               user is viewing. This increases performance as there is less for
               the user’s browser to download and the user benefits from seeing
               the page content quicker.
-            </p>
+            </motion.p>
             <div className={styles.gif}>
-              <img className={styles.img} src="/cat.gif" type="gif" />
+              <motion.img
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1 }}
+                className={styles.img}
+                src="/cat.gif"
+                type="gif"
+              />
             </div>
           </section>
         </motion.div>

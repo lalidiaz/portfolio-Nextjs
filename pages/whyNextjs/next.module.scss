@@ -1,4 +1,4 @@
-@import 'styles/mixins';
+@import "styles/mixins";
 
 .aboutNext {
   font-size: 20px;
@@ -6,10 +6,10 @@
   padding: 80px 20px 0px 20px;
   background: #5e489c;
   color: white;
-  font-family: 'roboto_monoregular';
+  font-family: "roboto_monoregular";
   line-height: 1.4;
 
-  @include desktop {
+  @include respond(desktop) {
     padding: 40px;
   }
 
@@ -19,18 +19,18 @@
     left: 30px;
     font-size: 22px;
     z-index: 1;
-    font-family: 'neue_metanabold';
+    font-family: "neue_metanabold";
     .back a {
       text-decoration: none;
     }
 
-    @include desktop {
+    @include respond(desktop) {
       position: absolute;
       top: 50px;
       left: 50px;
       font-size: 36px;
       z-index: 1;
-      font-family: 'neue_metanabold';
+      font-family: "neue_metanabold";
       .back a {
         text-decoration: none;
       }
@@ -44,10 +44,10 @@
     width: 100%;
     padding-top: 0px;
 
-    @include tablet {
+    @include respond(tablet) {
       padding-top: 0px;
     }
-    @include desktop {
+    @include respond(desktop) {
       flex-direction: row;
       padding-top: 50px;
     }
@@ -55,10 +55,10 @@
     .p {
       width: 100%;
 
-      @include tablet {
+      @include respond(tablet) {
         width: 100%;
       }
-      @include desktop {
+      @include respond(desktop) {
         width: 73%;
       }
     }
@@ -70,12 +70,12 @@
         height: 150px;
         margin-bottom: 50px;
 
-        @include tablet {
+        @include respond(tablet) {
           width: 200px;
           height: 200px;
           margin-bottom: 40px;
         }
-        @include desktop {
+        @include respond(desktop) {
           width: 300px;
           height: 300px;
           margin-bottom: 0px;

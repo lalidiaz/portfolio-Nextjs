@@ -1,4 +1,4 @@
-@import './mixins';
+@import "./mixins";
 
 .main {
   height: 100vh;
@@ -7,7 +7,7 @@
   color: #f4a03f;
   .name {
     font-size: 30px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     padding: 15px;
     top: 0;
     height: auto;
@@ -22,16 +22,16 @@
     line-height: 0;
 
     .h2 {
-      font-family: 'neue_metanabold';
+      font-family: "neue_metanabold";
       font-size: 40px;
       width: 100%;
       text-align: center;
       line-height: 0;
 
-      @include tablet {
+      @include respond(tablet) {
         font-size: 50px;
       }
-      @include desktop {
+      @include respond(desktop) {
         font-size: 100px;
       }
     }
@@ -40,13 +40,13 @@
       width: 100%;
       font-size: 20px;
       text-align: center;
-      font-family: 'neue_metanabold';
+      font-family: "neue_metanabold";
       line-height: 0;
 
-      @include tablet {
+      @include respond(tablet) {
         font-size: 30px;
       }
-      @include desktop {
+      @include respond(desktop) {
         font-size: 60px;
       }
     }
@@ -82,10 +82,10 @@
       -o-animation-timing-function: linear;
       animation-timing-function: linear;
 
-      @include tablet {
+      @include respond(tablet) {
         height: 150px;
       }
-      @include desktop {
+      @include respond(desktop) {
         height: 200px;
       }
     }

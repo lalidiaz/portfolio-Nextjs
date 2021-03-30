@@ -16,19 +16,19 @@
     justify-content: center;
     font-family: 'neue_metanabold';
 
-    @include tablet {
+    @include respond(tablet) {
       font-size: 33px;
     }
-    @include desktop {
+    @include respond(desktop) {
       font-size: 50px;
     }
     .a {
       padding-bottom: 30px;
 
-      @include tablet {
+      @include respond(tablet) {
         padding-bottom: 5px;
       }
-      @include desktop {
+      @include respond(desktop) {
         padding-bottom: 5px;
       }
     }

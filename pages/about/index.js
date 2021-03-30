@@ -29,20 +29,36 @@ export default function About() {
             </Link>
           </motion.div>
           <section className={styles.section}>
-            <p className={styles.p}>
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
+              className={styles.p}
+            >
               Hi! My name is Laura but you can call me Lali. I am a Front End
               Developer from Argentina living in the desert. I believe in
               building self-sustaining, purposeful products. I aim to build
               products that people would enjoy.
-            </p>
+            </motion.p>
             <section className={styles.stack}>
-              <h3 className={styles.h3}>My stack</h3>
-              <p>
+              <motion.h3
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1, ease: "easeInOut" }}
+                className={styles.h3}
+              >
+                My stack
+              </motion.h3>
+              <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1.5, ease: "easeInOut" }}
+              >
                 HTML5 / CSS3 / Javascript (ES6) / ReactJs / React Apollo /
                 NextJs / Jest (Testing) / Axios / Typescript / AWS Amplify /
                 Graphql / Git / Material UI / Styled Components / Sass / Browser
                 developer tools / Responsive Design.
-              </p>
+              </motion.p>
             </section>
           </section>
 
