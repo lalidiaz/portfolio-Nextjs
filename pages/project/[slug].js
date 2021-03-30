@@ -1,16 +1,16 @@
-import DetailProject from '@components/DetailProject';
-import React from 'react';
-import Head from 'next/head';
+import DetailProject from "@components/DetailProject";
+import React from "react";
+import Head from "next/head";
 
 // utils
-import { getProject, getPaths } from 'utils/getData';
+import { getProject, getPaths } from "utils/getData";
 
 const Index = ({ data }) => {
   return (
     <>
       <Head>
+        <link rel="icon" href="/code.png" />
         <title>Project</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       {data.map((element) => (
         <>
@@ -40,8 +40,8 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      data
-    }
+      data,
+    },
   };
 }
 

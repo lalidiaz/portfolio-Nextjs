@@ -1,32 +1,32 @@
-import { motion } from 'framer-motion';
-import styles from './contact.module.scss';
-import Back from 'components/Back';
+import { motion } from "framer-motion";
+import styles from "./contact.module.scss";
+import Back from "components/Back";
 //import CustomCursor from '@components/CustomCursor';
-import { IoDocumentAttachOutline } from 'react-icons/io5';
-import { IoLogoLinkedin } from 'react-icons/io';
-import { GoMarkGithub } from 'react-icons/go';
-import { HiOutlineMailOpen } from 'react-icons/hi';
-import Head from 'next/head';
+import { IoDocumentAttachOutline } from "react-icons/io5";
+import { IoLogoLinkedin } from "react-icons/io";
+import { GoMarkGithub } from "react-icons/go";
+import { HiOutlineMailOpen } from "react-icons/hi";
+import Head from "next/head";
 
 const boxVariants = {
   out: {
-    y: 600
+    y: 600,
   },
   in: {
     y: 0,
     transition: {
       duration: 0.6,
-      delayChildren: 1.2
-    }
-  }
+      delayChildren: 1.2,
+    },
+  },
 };
 const iconVariants = {
   out: {
-    x: -600
+    x: -600,
   },
   in: {
-    x: 0
-  }
+    x: 0,
+  },
 };
 
 export default function Contact() {
@@ -34,8 +34,8 @@ export default function Contact() {
     <>
       {/* <CustomCursor /> */}
       <Head>
+        <link rel="icon" href="/code.png" />
         <title>Contact me!</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <motion.div
         className={styles.wrapper}

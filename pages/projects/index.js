@@ -1,10 +1,10 @@
-import styles from './projects.module.scss';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
-import Back from 'components/Back';
-import { getProjectsData } from 'utils/getData';
-import Footer from 'components/Footer';
-import Head from 'next/head';
+import styles from "./projects.module.scss";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import Back from "components/Back";
+import { getProjectsData } from "utils/getData";
+import Footer from "components/Footer";
+import Head from "next/head";
 
 const transition = { duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] };
 
@@ -14,24 +14,24 @@ const thumbnailVariants = {
   exit: {
     scale: 0.5,
     opacity: 0,
-    transition: { duration: 1.5, ...transition }
-  }
+    transition: { duration: 1.5, ...transition },
+  },
 };
 
 const frameVariants = {
-  hover: { scale: 0.95 }
+  hover: { scale: 0.95 },
 };
 
 const imageVariants = {
-  hover: { scale: 1.1 }
+  hover: { scale: 1.1 },
 };
 
 export default function Projects({ data }) {
   return (
     <>
       <Head>
+        <link rel="icon" href="/code.png" />
         <title>Projects</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <motion.div
         className={styles.wrapper}
@@ -62,7 +62,7 @@ export default function Projects({ data }) {
                       whileHover="hover"
                       variants={frameVariants}
                       transition={transition}
-                      whileTap={{ scale: 1, x: '-4px', y: '4px' }}
+                      whileTap={{ scale: 1, x: "-4px", y: "4px" }}
                     >
                       <div className={styles.card}>
                         <motion.img
@@ -93,7 +93,7 @@ export async function getStaticProps() {
   const data = await getProjectsData();
   return {
     props: {
-      data
-    }
+      data,
+    },
   };
 }

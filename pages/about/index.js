@@ -1,25 +1,25 @@
-import styles from './about.module.scss';
-import { motion } from 'framer-motion';
-import Link from 'next/link';
-import { BsQuestionCircle } from 'react-icons/bs';
-import Head from 'next/head';
+import styles from "./about.module.scss";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { BsQuestionCircle } from "react-icons/bs";
+import Head from "next/head";
 
 const transition = {
   duration: 1,
-  ease: [0.43, 0.13, 0.23, 0.96]
+  ease: [0.43, 0.13, 0.23, 0.96],
 };
 
 const backVariants = {
   exit: { x: 100, opacity: 0, transition },
-  enter: { x: 0, opacity: 1, transition: { delay: 1, ...transition } }
+  enter: { x: 0, opacity: 1, transition: { delay: 1, ...transition } },
 };
 
 export default function About() {
   return (
     <>
       <Head>
+        <link rel="icon" href="/code.png" />
         <title>About</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.aboutHero}>
         <motion.div initial="exit" animate="enter" exit="exit">
@@ -52,14 +52,14 @@ export default function About() {
                 style={{
                   width: 100,
                   height: 100,
-                  color: 'white',
-                  fontSize: '28px',
-                  textAlign: 'center',
-                  width: '100%',
-                  cursor: 'pointer'
+                  color: "white",
+                  fontSize: "28px",
+                  textAlign: "center",
+                  width: "100%",
+                  cursor: "pointer",
                 }}
                 whileHover={{
-                  scale: 0.8
+                  scale: 0.8,
                 }}
                 whileTap={{ scale: 0.8 }}
               >

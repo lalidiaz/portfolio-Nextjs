@@ -1,14 +1,15 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.scss';
+import Head from "next/head";
+import styles from "../styles/Home.module.scss";
 //import CustomCursor from '@components/CustomCursor';
 
-import Burger from '@components/Burger';
-import CircleImg from '../public/circle.svg';
+import Burger from "@components/Burger";
+import CircleImg from "../public/circle.svg";
 
 export default function Home(props) {
   return (
     <>
       <Head>
+        <link rel="shortcut icon" href="/code.png" />
         <title>Laura Diaz</title>
       </Head>
       {/* <CustomCursor /> */}
