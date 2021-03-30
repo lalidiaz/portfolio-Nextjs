@@ -10,9 +10,6 @@ export default function Burger() {
 
   const [isOpen, setOpen] = useState(false);
 
-  const handleClick = () => {
-    setOpen(!isOpen);
-  };
 
   const menuVariants = {
     opened: {
