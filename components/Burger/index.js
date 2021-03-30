@@ -1,19 +1,26 @@
-import styles from './burger.module.scss';
-import { Cross as Hamburger } from 'hamburger-react';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import Link from 'next/link';
+import styles from "./burger.module.scss";
+import { Cross as Hamburger } from "hamburger-react";
+import { useState } from "react";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import menu from "../../database/menu.json";
 
 export default function Burger() {
+  const menuItems = Object.values(menu);
+
   const [isOpen, setOpen] = useState(false);
+
+  const handleClick = () => {
+    setOpen(!isOpen);
+  };
 
   const menuVariants = {
     opened: {
-      top: 0
+      top: 0,
     },
     closed: {
-      top: '-100vh'
-    }
+      top: "-100vh",
+    },
   };
   return (
     <>
@@ -23,19 +30,18 @@ export default function Burger() {
         </div>
         <motion.div
           initial={false}
-          animate={isOpen ? 'opened' : 'closed'}
+          animate={isOpen ? "opened" : "closed"}
           variants={menuVariants}
           className={styles.menu}
         >
-          <Link href="/projects">
-            <a className={styles.a}>Projects</a>
-          </Link>
-          <Link href="/contact">
-            <a className={styles.a}>Contact</a>
-          </Link>
-          <Link href="/about">
-            <a className={styles.a}>About</a>
-          </Link>
+          {menuItems.map((link) => {
+            const { url, id, name } = link;
+            return (
+              <Link href={url} key={id}>
+                <a className={styles.a}>{name}</a>
+              </Link>
+            );
+          })}
         </motion.div>
       </nav>
     </>

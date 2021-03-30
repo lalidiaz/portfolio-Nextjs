@@ -1,29 +1,29 @@
-import Link from 'next/link';
-import { motion } from 'framer-motion';
-import styles from './detail.module.scss';
-import { ImInfo } from 'react-icons/im';
-import { FiTool } from 'react-icons/fi';
-import { BsCodeSlash } from 'react-icons/bs';
-import { BiCodeCurly } from 'react-icons/bi';
-import { ImLink } from 'react-icons/im';
+import Link from "next/link";
+import { motion } from "framer-motion";
+import styles from "./detail.module.scss";
+import { ImInfo } from "react-icons/im";
+import { FiTool } from "react-icons/fi";
+import { BsCodeSlash } from "react-icons/bs";
+import { BiCodeCurly } from "react-icons/bi";
+import { ImLink } from "react-icons/im";
 
 const transition = {
   duration: 1,
-  ease: [0.43, 0.13, 0.23, 0.96]
+  ease: [0.43, 0.13, 0.23, 0.96],
 };
 
 const imageVariants = {
-  exit: { y: '50%', opacity: 0, transition },
+  exit: { y: "50%", opacity: 0, transition },
   enter: {
-    y: '0%',
+    y: "0%",
     opacity: 1,
-    transition
-  }
+    transition,
+  },
 };
 
 const backVariants = {
   exit: { x: 100, opacity: 0, transition },
-  enter: { x: 0, opacity: 1, transition: { delay: 1, ...transition } }
+  enter: { x: 0, opacity: 1, transition: { delay: 1, ...transition } },
 };
 
 const DetailProject = ({
@@ -33,7 +33,7 @@ const DetailProject = ({
   techStack,
   githubLink,
   type,
-  url
+  url,
 }) => (
   <>
     <motion.div
@@ -49,37 +49,64 @@ const DetailProject = ({
       </motion.div>
       <div className={styles.content}>
         <div className={styles.text}>
-          <h1 className={styles.h1}>{name}.</h1>
-          <p>
-            <span>{description}</span>
-          </p>
-          <p>
+          <motion.h1
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, ease: "easeInOut" }}
+            className={styles.h1}
+          >
+            {name}.
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1, ease: "easeInOut" }}
+          >
+            {description}
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5, ease: "easeInOut" }}
+          >
             <FiTool size={20} />
             <span className={styles.span}>Tech stack: {techStack}.</span>
-          </p>
-          <p>
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5, ease: "easeInOut" }}
+          >
             <BiCodeCurly size={20} />
             <span className={styles.span}>type of project: {type}. </span>
-          </p>
-          <p>
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 2, ease: "easeInOut" }}
+          >
             <BsCodeSlash size={20} />
             <span className={styles.span}>
-              See the code{' '}
+              See the code{" "}
               <a href={githubLink} target="_blank">
                 here
               </a>
               .
             </span>
-          </p>
+          </motion.p>
 
-          <p>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 2.5, ease: "easeInOut" }}
+          >
             <ImLink size={20} />
             <span className={styles.span}>See the demo</span>
-            <a href={url} target="_blank" style={{ paddingLeft: '10px' }}>
+            <a href={url} target="_blank" style={{ paddingLeft: "10px" }}>
               here
             </a>
             .
-          </p>
+          </motion.p>
         </div>
         <div className={styles.imageContainer}>
           <motion.img

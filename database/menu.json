@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "id": 1,
+    "name": "Projects",
+    "url": "/projects"
+  },
+  "contact": {
+    "id": 2,
+    "name": "Contact",
+    "url": "/contact"
+  },
+  "about": {
+    "id": 3,
+    "name": "About",
+    "url": "/about"
+  }
+}

@@ -1,9 +1,9 @@
-import '../styles/globals.css';
-import { AnimatePresence } from 'framer-motion';
-import Footer from '@components/Footer';
+import "../styles/globals.css";
+import { AnimatePresence } from "framer-motion";
+import Footer from "@components/Footer";
 
 function handleExitComplete() {
-  if (typeof window !== 'undefined') {
+  if (typeof window !== "undefined") {
     window.scrollTo({ top: 0 });
   }
 }

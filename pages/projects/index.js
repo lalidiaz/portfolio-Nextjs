@@ -74,7 +74,10 @@ export default function Projects({ data }) {
                         />
                         <div className={styles.cardBottom}>
                           <p className={styles.projectName}>{element.name}</p>
-                          <a className={styles.a}>Click me!</a>
+                          <p className={styles.descriptionTech}>
+                            {element.descriptionTech}
+                          </p>
+                          <motion.a className={styles.a}>CLICK ME</motion.a>
                         </div>
                       </div>
                     </motion.div>
