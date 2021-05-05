@@ -30,6 +30,16 @@
       height: 25vh;
       justify-content: space-around;
     }
+    .a {
+      padding-bottom: 10px;
+
+      @include respond(tablet) {
+        padding-bottom: 0px;
+      }
+      @include respond(desktop) {
+        padding-bottom: 0px;
+      }
+    }
   }
   .burgerContainer {
     z-index: 2;

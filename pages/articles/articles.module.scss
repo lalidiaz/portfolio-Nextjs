@@ -13,12 +13,20 @@
 
   .title {
     font-family: $monument-extrabold;
-    font-size: 45px;
+    font-size: 30px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-right: 80px;
     color: $red;
+
+    @include respond(tablet) {
+      font-size: 45px;
+      padding-right: 80px;
+    }
+    @include respond(desktop) {
+      font-size: 45px;
+      padding-right: 80px;
+    }
   }
   .articles {
     display: flex;
