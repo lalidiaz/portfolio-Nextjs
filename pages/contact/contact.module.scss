@@ -1,13 +1,15 @@
-@import 'styles/mixins';
+@import "../../styles/mixins";
+@import "../../styles/variables";
 
 .wrapper {
-  background-color: #195fa6;
-  color: #f29283;
-  font-family: 'neue_metanabold';
+  font-family: $monument-regular;
   font-size: 28px;
   width: 100%;
+  height: 100%;
   padding: 30px;
-  height: 100vh;
+  background-image: url("../../public/background2.jpeg");
+  background-position: center;
+  background-size: cover;
 
   @include respond(tablet) {
     font-size: 30px;
@@ -16,32 +18,12 @@
   @include respond(desktop) {
     font-size: 60px;
     padding: 100px;
-    height: 100%;
+    height: 100vh;
+  }
+  .h3 {
+    color: $red;
   }
 
-  .back {
-    position: fixed;
-    top: 50px;
-    left: 50px;
-    font-size: 22px;
-    z-index: 1;
-    font-family: 'neue_metanabold';
-    .back a {
-      text-decoration: none;
-    }
-
-    @include respond(desktop) {
-      position: fixed;
-      top: 50px;
-      left: 50px;
-      font-size: 36px;
-      z-index: 1;
-      font-family: 'neue_metanabold';
-      .back a {
-        text-decoration: none;
-      }
-    }
-  }
   .contentWrapper {
     display: flex;
     flex-direction: column;
@@ -68,11 +50,10 @@
 
       .social {
         bottom: 0;
-        font-family: 'maklight';
         font-size: 22px;
         display: flex;
         flex-direction: column;
-        font-family: 'roboto_monoregular';
+        font-family: $monument-regular;
         @include respond(tablet) {
           font-size: 22px;
         }

@@ -1,8 +1,8 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
 // read the json files inside database
-const dataDirectory = path.join(process.cwd(), 'database');
+const dataDirectory = path.join(process.cwd(), "database");
 
 const parse = (name) => {
   const filePath = path.join(dataDirectory, name);
@@ -13,7 +13,7 @@ const parse = (name) => {
 
 // all projects
 export function getProjectsData() {
-  const parseData = parse('projects.json');
+  const parseData = parse("projects.json");
   return parseData;
 }
 
@@ -34,8 +34,14 @@ export function getPaths() {
   return paths.map((path) => {
     return {
       params: {
-        slug: path
-      }
+        slug: path,
+      },
     };
   });
+}
+
+//get artitles
+export function getArticlesData() {
+  const parseData = parse("articles.json");
+  return parseData;
 }

@@ -1,15 +1,13 @@
 import DetailProject from "@components/DetailProject";
 import React from "react";
 import Head from "next/head";
-
-// utils
 import { getProject, getPaths } from "utils/getData";
 
 const Index = ({ data }) => {
   return (
     <>
       <Head>
-        <link rel="icon" href="/code.png" />
+        <link rel="icon" href="/red.png" />
         <title>Project</title>
       </Head>
       {data.map((element) => (

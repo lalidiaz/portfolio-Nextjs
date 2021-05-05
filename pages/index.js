@@ -1,28 +1,34 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
-//import CustomCursor from '@components/CustomCursor';
-
 import Burger from "@components/Burger";
-import CircleImg from "../public/circle.svg";
+import Typewriter from "typewriter-effect";
 
-export default function Home(props) {
+export default function Home() {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/code.png" />
+        <link rel="shortcut icon" href="/red.png" />
         <title>Laura Diaz</title>
       </Head>
-      {/* <CustomCursor /> */}
 
       <main className={styles.main}>
-        <h1 className={styles.name}>Laura Diaz</h1>
-        <div className={styles.circle}>
-          <CircleImg className={styles.welcome} width={30} height={30} />
-        </div>
         <div className={styles.descriptionContainer}>
-          <h2 className={styles.h2}>Hi there!</h2>
-          <h3 className={styles.h3}>I'm a Front End Developer.</h3>
+          <div className={styles.typewriter}>
+            <Typewriter
+              changeDelay={1000}
+              onInit={(typewriter) =>
+                typewriter
+                  .typeString(
+                    "<p>Hi, I am Laura.<p><p>Front-end</p><p>Developer.</p>"
+                  )
+                  .pauseFor(2000)
+                  .start()
+              }
+              options={{ autoStart: true, loop: true }}
+            />
+          </div>
         </div>
+
         <Burger />
       </main>
     </>

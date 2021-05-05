@@ -1,11 +1,14 @@
-@import "styles/mixins";
+@import "../../styles/mixins";
+@import "../../styles/variables";
 
 .aboutHero {
-  color: #195fa6;
-  background: #f29283;
-  top: 0;
+  color: $black;
+  top: 50;
   padding-bottom: 50px;
   height: 100%;
+  background-image: url("../../public/background2.jpeg");
+  background-position: center;
+  background-size: cover;
 
   @include respond(tablet) {
     padding-bottom: 30px;
@@ -13,36 +16,13 @@
   }
   @include respond(desktop) {
     padding-bottom: 0px;
-    height: 100vh;
+    height: 100%;
   }
 
-  .back {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    font-size: 22px;
-    z-index: 1;
-    font-family: "neue_metanabold";
-    .back a {
-      text-decoration: none;
-    }
-
-    @include respond(desktop) {
-      position: absolute;
-      top: 50px;
-      left: 50px;
-      font-size: 36px;
-      z-index: 1;
-      font-family: "neue_metanabold";
-      .back a {
-        text-decoration: none;
-      }
-    }
-  }
   .section {
     font-size: 20px;
-    font-family: "roboto_monoregular";
-    width: 100%;
+    font-family: $monument-regular;
+    width: 80%;
     text-align: left;
     height: 100%;
     margin-block-start: 0px;
@@ -60,33 +40,16 @@
 
   .stack {
     font-size: 20px;
-    font-family: "roboto_monoregular";
+    font-family: $monument-regular;
 
     .h3 {
-      font-family: "neue_metanabold";
+      font-family: $monument-extrabold;
     }
     @include respond(tablet) {
       font-size: 22px;
     }
     @include respond(desktop) {
       font-size: 26px;
-    }
-  }
-  .nextjs {
-    width: 100%;
-    display: flex;
-    font-family: "neue_metanabold";
-    padding: 0px 20px 0px 20px;
-
-    .a {
-      display: block;
-      font-size: 20px;
-      @include respond(tablet) {
-        font-size: 22px;
-      }
-      @include respond(desktop) {
-        font-size: 30px;
-      }
     }
   }
 }

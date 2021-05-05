@@ -4,26 +4,17 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import menu from "../../database/menu.json";
+import { menuVariants } from "../../utils/animations";
 
 export default function Burger() {
   const menuItems = Object.values(menu);
-
   const [isOpen, setOpen] = useState(false);
 
-
-  const menuVariants = {
-    opened: {
-      top: 0,
-    },
-    closed: {
-      top: "-100vh",
-    },
-  };
   return (
     <>
       <nav className={styles.nav}>
         <div className={styles.burgerContainer}>
-          <Hamburger toggled={isOpen} toggle={setOpen} color="black" />
+          <Hamburger toggled={isOpen} toggle={setOpen} color="#fdf0ed" />
         </div>
         <motion.div
           initial={false}

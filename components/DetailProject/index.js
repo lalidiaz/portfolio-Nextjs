@@ -1,30 +1,19 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import styles from "./detail.module.scss";
-import { ImInfo } from "react-icons/im";
 import { FiTool } from "react-icons/fi";
 import { BsCodeSlash } from "react-icons/bs";
 import { BiCodeCurly } from "react-icons/bi";
 import { ImLink } from "react-icons/im";
-
-const transition = {
-  duration: 1,
-  ease: [0.43, 0.13, 0.23, 0.96],
-};
-
-const imageVariants = {
-  exit: { y: "50%", opacity: 0, transition },
-  enter: {
-    y: "0%",
-    opacity: 1,
-    transition,
-  },
-};
-
-const backVariants = {
-  exit: { x: 100, opacity: 0, transition },
-  enter: { x: 0, opacity: 1, transition: { delay: 1, ...transition } },
-};
+import {
+  imageVariantsDetail,
+  backVariants,
+  delay05EaseInOut,
+  delay1EaseInOut,
+  delay15EaseInOut,
+  delay2EaseInOut,
+  delay25EaseInOut,
+} from "../../utils/animations";
 
 const DetailProject = ({
   name,
@@ -50,41 +39,25 @@ const DetailProject = ({
       <div className={styles.content}>
         <div className={styles.text}>
           <motion.h1
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5, ease: "easeInOut" }}
+            variants={delay05EaseInOut}
+            initial="hidden"
+            animate="show"
             className={styles.h1}
           >
             {name}.
           </motion.h1>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1, ease: "easeInOut" }}
-          >
+          <motion.p variants={delay1EaseInOut} initial="hidden" animate="show">
             {description}
           </motion.p>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5, ease: "easeInOut" }}
-          >
+          <motion.p variants={delay15EaseInOut} initial="hidden" animate="show">
             <FiTool size={20} />
             <span className={styles.span}>Tech stack: {techStack}.</span>
           </motion.p>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5, ease: "easeInOut" }}
-          >
+          <motion.p variants={delay15EaseInOut} initial="hidden" animate="show">
             <BiCodeCurly size={20} />
             <span className={styles.span}>type of project: {type}. </span>
           </motion.p>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 2, ease: "easeInOut" }}
-          >
+          <motion.p variants={delay2EaseInOut} initial="hidden" animate="show">
             <BsCodeSlash size={20} />
             <span className={styles.span}>
               See the code{" "}
@@ -95,11 +68,7 @@ const DetailProject = ({
             </span>
           </motion.p>
 
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 2.5, ease: "easeInOut" }}
-          >
+          <motion.p variants={delay25EaseInOut} initial="hidden" animate="show">
             <ImLink size={20} />
             <span className={styles.span}>See the demo</span>
             <a href={url} target="_blank" style={{ paddingLeft: "10px" }}>
@@ -111,7 +80,7 @@ const DetailProject = ({
         <div className={styles.imageContainer}>
           <motion.img
             className={styles.img}
-            variants={imageVariants}
+            variants={imageVariantsDetail}
             src={image}
             alt="development-project-front-end"
           />

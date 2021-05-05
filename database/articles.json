@@ -1,0 +1,37 @@
+{
+  "typescriptConfig": {
+    "id": 1,
+    "name": "Brief introduction to Typescript + config ✨",
+    "topic": "Typescript",
+    "lang": "English",
+    "url": "https://lalidiaz.medium.com/an-introduction-to-typescript-config-d9f0461fd864"
+  },
+  "typescriptConfigSpanish": {
+    "id": 2,
+    "name": "Breve introducción a Typescript + configuración ✨",
+    "topic": "Typescript",
+    "lang": "Spanish / Español",
+    "url": "https://lalidiaz.medium.com/breve-introducci%C3%B3n-a-typescript-configuraci%C3%B3n-e0eb0a46a799"
+  },
+  "modulesTypescriptSpanish": {
+    "id": 3,
+    "name": "Sobre Módulos + Typescript 👽",
+    "topic": "Typescript",
+    "lang": "Spanish / Español",
+    "url": "https://lalidiaz.medium.com/sobre-m%C3%B3dulos-typescript-6a0d83950775"
+  },
+  "modulesTypescript": {
+    "id": 4,
+    "name": "About Modules + Typescript👽",
+    "topic": "Typescript",
+    "lang": "English",
+    "url": "https://lalidiaz.medium.com/about-modules-typescript-beac72097ff3"
+  },
+  "typescriptTypesSpanish": {
+    "id": 4,
+    "name": "Typescript Types 🦕",
+    "topic": "Typescript",
+    "lang": "Spanish / Español",
+    "url": "https://lalidiaz.medium.com/typescript-types-f8c60d517e31"
+  }
+}

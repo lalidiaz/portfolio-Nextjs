@@ -8,7 +8,7 @@
     "techStack": "NextJs + Matierial UI",
     "githubLink": "https://github.com/lalidiaz/FerminGuerreroWeb-NextJs",
     "url": "https://ferminguerrero.com/",
-    "description": "Very happy to present Fermin Guerrero's personal web page, he is a type and graphic designer. This is a profesional project.",
+    "description": "Fermin Guerrero's personal web page, he is a type and graphic designer.",
     "type": "Freelance job"
   },
   "pizzaapp": {
@@ -44,7 +44,7 @@
     "techStack": "React Js + useReducer + useContext",
     "githubLink": "https://github.com/lalidiaz/cart-usecontext-usereducer-ReactJs",
     "url": "https://cart-usereducer-usecontext-lalidiaz.vercel.app/",
-    "description": "This is the 14th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished.This is a shopping cart, the price and number of items would increase if you add products to your cart. You can remove items and clear the list if you want to. Topics: useContext() and useReducer() hooks, contextAPI, fetch data with useReducer()",
+    "description": "This is the 14th project to refresh ReactJs concepts. Topics: useContext() and useReducer() hooks, contextAPI, fetch data with useReducer()",
     "type": "App"
   },
   "submenu": {
@@ -56,7 +56,7 @@
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/submenu-useContext-Reactjs",
     "url": "https://submenu-usecontext.vercel.app/",
-    "description": "This is the 13th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. Hover over the menu items and see information about different sections of each page.Topic: useContext() hook, contextAPI.",
+    "description": "This is the 13th project to refresh ReactJs concepts. Hover over the menu items and see information about different sections of each page. Topic: useContext() hook, contextAPI.",
     "type": "App"
   },
   "": {
@@ -68,7 +68,7 @@
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/sidebar-useContext-and-ContextAPI",
     "url": "https://modal-use-context-context-api.vercel.app/",
-    "description": "This is the 12th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. Topic: useContext() hook and Context API, I created a custom hook to import the specific context and useContext() hook.",
+    "description": "This is the 12th project to refresh ReactJs concepts. Topic: useContext() hook and Context API, I created a custom hook to import the specific context and useContext() hook.",
     "type": "App"
   },
   "navbar": {
@@ -80,7 +80,7 @@
     "techStack": "React Js + useRef",
     "githubLink": "https://github.com/lalidiaz/navbar-reactjs",
     "url": "https://navbar-useref.vercel.app/",
-    "description": "This is the 11th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. This is a responsive navbar with useRef() hook.",
+    "description": "This is the 11th project to refresh ReactJs concepts. This is a responsive navbar with useRef() hook.",
     "type": "App"
   },
   "todo": {
@@ -92,7 +92,7 @@
     "techStack": "React Js + Local Storage + Framer Motion",
     "githubLink": "https://github.com/lalidiaz/grocery-app-ReactJs",
     "url": "https://grocery-app-one.vercel.app/",
-    "description": "This is the 10th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. This is a grocery app, you can add items to the list, remove and modify the name of the item. If you refresh the page, the items will still be there because I used Local Storage to store the items.",
+    "description": "This is the 10th project to refresh ReactJs concepts. This is a grocery app, you can add items to the list, remove and modify the name of the item. If you refresh the page, the items will still be there because I used Local Storage to store the items.",
     "type": "App"
   },
   "colorGenerator": {
@@ -104,7 +104,7 @@
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/colors-generator-ReactJs",
     "url": "https://colors-generator.vercel.app/",
-    "description": "This is the 9th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. Get lightness or darkness of a color, if you write something that is not hex code, the input turn red. I used values.js to get the values.",
+    "description": "This is the 9th project to refresh ReactJs concepts. Get lightness or darkness of a color, if you write something that is not hex code, the input turn red. I used values.js to get the values.",
     "type": "App"
   },
   "paragrahp": {
@@ -116,7 +116,7 @@
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/paragraph-generator-ReactJs",
     "url": "https://words-generator.vercel.app/",
-    "description": "This is the 8th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. Get a number of paragraphs by choosing a number and clicking the button.",
+    "description": "This is the 8th project to refresh ReactJs concepts. Get a number of paragraphs by choosing a number and clicking the button.",
     "type": "App"
   },
   "slider": {
@@ -128,7 +128,7 @@
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/slider-reactJs",
     "url": "https://slider-kohl.vercel.app/",
-    "description": "This is the 7th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. This is a Slider app.",
+    "description": "This is the 7th project to refresh ReactJs concepts. This is a Slider app.",
     "type": "App"
   },
   "menu": {
@@ -140,7 +140,7 @@
     "techStack": "ReactJs + Filter",
     "githubLink": "https://github.com/lalidiaz/food-menu-ReactJs",
     "url": "https://menu-lime.vercel.app/",
-    "description": "This is the 5th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. This is a menu app. You can choose the category and see what's in the menu.",
+    "description": "This is the 5th project to refresh ReactJs concepts. This is a menu app. You can choose the category and see what's in the menu.",
     "type": "Project"
   },
   "accordion": {
@@ -152,7 +152,7 @@
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/accordion-ReactJs",
     "url": "https://accordion-six.vercel.app/",
-    "description": "This is the 4th project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. In this app you can read about Waitomo Caves (New Zeland), you can click the button to see more info.",
+    "description": "This is the 4th project to refresh ReactJs concepts. In this app you can read about Waitomo Caves (New Zeland), you can click the button to see more info.",
     "type": "Project"
   },
 
@@ -165,7 +165,7 @@
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/reviews-project-ReactJs",
     "url": "https://reviews-tau.vercel.app/",
-    "description": "This is the 3rd project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. Reviews app. ",
+    "description": "This is the 3rd project to refresh ReactJs concepts. This is a Reviews app. ",
     "type": "Project"
   },
   "tours": {
@@ -177,7 +177,7 @@
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/tours-project-ReactJs",
     "url": "https://tours-seven.vercel.app/",
-    "description": "This is the 2nd project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. In this app you can delete the tours offers you are not interested in and refresh the list of tours.",
+    "description": "This is the 2nd project to refresh ReactJs concepts. In this app you can delete the tours offers you are not interested in and refresh the list of tours.",
     "type": "Project"
   },
   "birthday": {
@@ -189,7 +189,7 @@
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/birthday-app-ReactJs",
     "url": "https://birthday-app-eight.vercel.app/",
-    "description": "This is the 1st project to refresh ReactJs concepts. I am writing an article about ReactJs main concepts so I can share it with the community once it's finished. It's a birthday app which reminds you of today's birthdays. You can clear the list once you checked. ",
+    "description": "This is the 1st project to refresh ReactJs concepts. It's a birthday app which reminds you of today's birthdays. You can clear the list once you checked. ",
     "type": "Project"
   },
 
@@ -223,7 +223,7 @@
     "slug": "spotify-clone",
     "id": 19,
     "image": "/spotify.png",
-    "descriptionTech": "Typescript + React Native + GraphQL",
+    "descriptionTech": "React Native + GraphQL",
     "techStack": "React Native + GraphQL + Typescript + AWS Amplify + AWS AppSync",
     "githubLink": "https://github.com/lalidiaz/Spotify-Clone-React-Native",
     "url": "https://github.com/lalidiaz/Spotify-Clone-React-Native",

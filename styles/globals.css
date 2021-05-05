@@ -1,35 +1,8 @@
-@font-face {
-  font-family: "neue_metanabold";
-  src: url("neuemetana-bold-webfont.woff2") format("woff2"),
-    url("neuemetana-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "neue_metanaregular";
-  src: url("neuemetana-regular-webfont.woff2") format("woff2"),
-    url("neuemetana-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "roboto_monoregular";
-  src: url("robotomono-variablefont_wght-webfont.woff2") format("woff2"),
-    url("robotomono-variablefont_wght-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 html,
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-.maiWrapper {
   height: 100%;
   width: 100%;
 }

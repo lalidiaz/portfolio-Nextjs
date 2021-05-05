@@ -1,5 +1,5 @@
-import styles from './cursor.module.scss';
-import { useRef, useEffect } from 'react';
+import styles from "./cursor.module.scss";
+import { useRef, useEffect } from "react";
 
 const CustomCursor = () => {
   const mainCursor = useRef(null);
@@ -12,11 +12,11 @@ const CustomCursor = () => {
     destinationY: 0,
     distanceX: 0,
     distanceY: 0,
-    key: -1
+    key: -1,
   });
 
   useEffect(() => {
-    document.addEventListener('mousemove', (event) => {
+    document.addEventListener("mousemove", (event) => {
       const { clientX, clientY } = event;
 
       const mouseX = clientX;
@@ -42,7 +42,7 @@ const CustomCursor = () => {
         destinationX,
         destinationY,
         distanceX,
-        distanceY
+        distanceY,
       } = positionRef.current;
 
       if (!destinationX | !destinationY) {

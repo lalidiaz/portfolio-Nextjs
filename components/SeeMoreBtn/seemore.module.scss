@@ -1,0 +1,17 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.readMore {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+
+  .readText {
+    padding-right: 10px;
+    display: flex;
+    font-family: $monument-regular;
+    font-size: 14px;
+    color: $light;
+  }
+}

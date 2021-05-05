@@ -1,4 +1,5 @@
-@import "styles/mixins";
+@import "../../styles/mixins";
+@import "../../styles/variables";
 
 .footer {
   width: 100%;
@@ -8,10 +9,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: "roboto_monoregular";
+  font-family: $ibm;
   font-size: 16px;
-  background: white;
-  color: black;
+  background: transparent;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
   padding-bottom: 5px;
 
   @include respond(tablet) {
@@ -33,10 +35,10 @@
 
   .a {
     font-size: 18px;
-    color: black;
+    color: white;
     text-decoration: none;
     .a::selector {
-      color: black;
+      color: white;
     }
   }
 }

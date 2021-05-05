@@ -1,10 +1,12 @@
-@import 'styles/mixins';
+@import "../../styles/mixins";
+@import "../../styles/variables";
 
 .single {
   overflow: hidden;
   height: 100%;
-  background-color: #1a4633;
-  color: #ea99c5;
+  background-image: url("../../public/background2.jpeg");
+  background-position: center;
+  background-size: cover;
 
   @include respond(tablet) {
     height: 100%;
@@ -19,18 +21,15 @@
     left: 30px;
     font-size: 22px;
     z-index: 1;
-    font-family: 'neue_metanabold';
+    font-family: $monument-extrabold;
     .back a {
       text-decoration: none;
     }
 
     @include respond(desktop) {
-      position: fixed;
       top: 50px;
       left: 50px;
       font-size: 36px;
-      z-index: 1;
-      font-family: 'neue_metanabold';
       .back a {
         text-decoration: none;
       }
@@ -58,7 +57,7 @@
     }
 
     .imageContainer {
-      width: 500px;
+      width: 600px;
       height: auto;
       margin: 20px;
       padding: 30px;
@@ -79,9 +78,9 @@
     }
     .text {
       width: 100%;
-      font-size: 16px;
+      font-size: 18px;
       padding: 20px;
-      font-family: 'roboto_monoregular';
+      font-family: $monument-regular;
 
       @include respond(tablet) {
         width: 100%;
@@ -97,8 +96,8 @@
         text-decoration: underline;
       }
       .h1 {
-        font-family: 'neue_metanabold';
-        font-size: 20px;
+        font-family: $monument-regular;
+        font-size: 26px;
       }
       p {
         font-weight: bold;
