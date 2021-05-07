@@ -33,5 +33,19 @@
     "topic": "Typescript",
     "lang": "Spanish / Español",
     "url": "https://lalidiaz.medium.com/typescript-types-f8c60d517e31"
+  },
+  "objectTypesSpanish": {
+    "id": 5,
+    "name": "Typescript: Object Types 👻",
+    "topic": "Typescript",
+    "lang": "Spanish / Español",
+    "url": "https://lalidiaz.medium.com/typescript-object-types-df3d489d9bde"
+  },
+  "objectTypes": {
+    "id": 6,
+    "name": "Typescript: Object Types 👻",
+    "topic": "Typescript",
+    "lang": "English",
+    "url": "https://lalidiaz.medium.com/typescript-object-types-61c956564f87"
   }
 }
