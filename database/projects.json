@@ -23,10 +23,22 @@
     "description": "You can add pizzas to a cart, make your own pizza and check the offers available!. This pizzas will be store in your local storage. This app is built in React with Typescript. Check out the animations. ",
     "type": "App"
   },
+  "twitter": {
+    "name": "Twitter Clone",
+    "slug": "twitter-clone",
+    "id": 3,
+    "image": "/twitter.png",
+    "descriptionTech": "NextJs + Firebase",
+    "techStack": "NextJs + Firebase",
+    "githubLink": "https://github.com/lalidiaz/dev-socialmedia-nextjs",
+    "url": "https://devtweeter.vercel.app",
+    "description": "DevTweet social media app (Twitter Clon) with Github authentication (Firebase). You can write DevTweets and upload them in real time. You can upload images (drag and drop) and those images will be saved in firebase storage.",
+    "type": "Desktop & Movile App"
+  },
   "animationArtist": {
     "name": "Perle Fine",
     "slug": "perle-fine",
-    "id": 3,
+    "id": 4,
     "image": "/perle.png",
     "descriptionTech": "ReactJs + Framer Motion",
     "techStack": "ReactJs + React Router + Framer Motion",
@@ -38,7 +50,7 @@
   "cart": {
     "name": "Cart",
     "slug": "cart",
-    "id": 4,
+    "id": 5,
     "image": "/cart.png",
     "descriptionTech": "ReactJs + useReducer",
     "techStack": "React Js + useReducer + useContext",
@@ -50,7 +62,7 @@
   "submenu": {
     "name": "Submenu",
     "slug": "submenu",
-    "id": 5,
+    "id": 6,
     "image": "/submenu.png",
     "descriptionTech": "ReactJs + useContext",
     "techStack": "React Js",
@@ -59,10 +71,10 @@
     "description": "This is the 13th project to refresh ReactJs concepts. Hover over the menu items and see information about different sections of each page. Topic: useContext() hook, contextAPI.",
     "type": "App"
   },
-  "": {
+  "modal": {
     "name": "Modal + Slider Menu",
     "slug": "modal-slider-menu",
-    "id": 6,
+    "id": 7,
     "image": "/useContext.png",
     "descriptionTech": "ReactJs + useContext",
     "techStack": "React Js",
@@ -74,7 +86,7 @@
   "navbar": {
     "name": "Responsive Navbar with hooks",
     "slug": "responsive-navbar",
-    "id": 7,
+    "id": 8,
     "image": "/navbar.png",
     "descriptionTech": "ReactJs + useRef",
     "techStack": "React Js + useRef",
@@ -86,7 +98,7 @@
   "todo": {
     "name": "To-Do List",
     "slug": "to-do-list",
-    "id": 8,
+    "id": 9,
     "image": "/todo.png",
     "descriptionTech": "ReactJs + Framer Motion",
     "techStack": "React Js + Local Storage + Framer Motion",
@@ -98,7 +110,7 @@
   "colorGenerator": {
     "name": "Color Generator",
     "slug": "color-generator",
-    "id": 9,
+    "id": 10,
     "image": "/color.png",
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
@@ -110,7 +122,7 @@
   "paragrahp": {
     "name": "Get Paragraph App",
     "slug": "paragraph-app",
-    "id": 10,
+    "id": 11,
     "image": "/paragraph.png",
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
@@ -122,7 +134,7 @@
   "slider": {
     "name": "Slider App",
     "slug": "slide-app",
-    "id": 11,
+    "id": 12,
     "image": "/slider.png",
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
@@ -134,7 +146,7 @@
   "menu": {
     "name": "Food Menu",
     "slug": "food-menu",
-    "id": 12,
+    "id": 13,
     "image": "/menu.png",
     "descriptionTech": "ReactJs + Filter Menu",
     "techStack": "ReactJs + Filter",
@@ -146,7 +158,7 @@
   "accordion": {
     "name": "Accordion",
     "slug": "accordion",
-    "id": 13,
+    "id": 14,
     "image": "/accordion.png",
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
@@ -159,7 +171,7 @@
   "reviews": {
     "name": "Reviews",
     "slug": "reviews",
-    "id": 14,
+    "id": 15,
     "image": "/reviews.png",
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
@@ -171,7 +183,7 @@
   "tours": {
     "name": "Tours App",
     "slug": "tours",
-    "id": 15,
+    "id": 16,
     "image": "/tours.png",
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
@@ -183,7 +195,7 @@
   "birthday": {
     "name": "Birthday app",
     "slug": "birthday-app",
-    "id": 16,
+    "id": 17,
     "image": "/birthday.png",
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
@@ -196,7 +208,7 @@
   "portfolioSecond": {
     "name": "Personal Portfolio Dev",
     "slug": "personal-portfolio",
-    "id": 17,
+    "id": 18,
     "image": "/otherportfolio.png",
     "descriptionTech": "ReactJs + React Router",
     "techStack": "ReactJs + React Router",
@@ -209,7 +221,7 @@
   "reduxCourse": {
     "name": "Redux Course",
     "slug": "redux-course",
-    "id": 18,
+    "id": 19,
     "image": "/reduxcourse.png",
     "descriptionTech": "ReactJs + Redux",
     "techStack": "React-Redux",
@@ -221,7 +233,7 @@
   "spotify": {
     "name": "Spotify Clone",
     "slug": "spotify-clone",
-    "id": 19,
+    "id": 20,
     "image": "/spotify.png",
     "descriptionTech": "React Native + GraphQL",
     "techStack": "React Native + GraphQL + Typescript + AWS Amplify + AWS AppSync",
@@ -233,7 +245,7 @@
   "crypto": {
     "name": "CryptoTracker App",
     "slug": "crypto-tracker-app",
-    "id": 20,
+    "id": 21,
     "image": "/crypto.png",
     "descriptionTech": "React Native",
     "techStack": "React Native",
@@ -245,7 +257,7 @@
   "recipe": {
     "name": "Recipe App",
     "slug": "recipe-app",
-    "id": 21,
+    "id": 22,
     "image": "/recipe.png",
     "descriptionTech": "ReactJs Hooks",
     "techStack": "React Js",
@@ -257,7 +269,7 @@
   "insta": {
     "name": "Instagram Clone",
     "slug": "insta-clone",
-    "id": 22,
+    "id": 23,
     "image": "/instagram.png",
     "descriptionTech": "ReactJs + React Apollo",
     "techStack": "React Js + Styled Components + React Helmet (SEO) + GraphQl + React Apollo",
@@ -270,7 +282,7 @@
   "todoredux": {
     "name": "To-Do List Redux",
     "slug": "to-do-redux",
-    "id": 23,
+    "id": 24,
     "image": "/todoredux.png",
     "descriptionTech": "ReactJs + Redux",
     "techStack": "React Js",
@@ -279,18 +291,7 @@
     "description": "A To-Do list but this time with Redux!",
     "type": "Desktop & Movile App"
   },
-  "twitter": {
-    "name": "Twitter Clone",
-    "slug": "twitter-clone",
-    "id": 24,
-    "image": "/twitter.png",
-    "descriptionTech": "NextJs + Firebase",
-    "techStack": "NextJs + Firebase",
-    "githubLink": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
-    "url": "https://github.com/lalidiaz/devtter-NextJs-hooks-firebase",
-    "description": "Twitter Clon with login authentification with Github authentification in Firebase: To keep my Devitts (tweets), the devitts update in real time everytime I write one!. It will show the time was created and you can access to that Devitt if you want to. Firebase to keep the tweets and its info in a data base.",
-    "type": "Desktop & Movile App"
-  },
+
   "prevPort": {
     "name": "Previous Personal Portfolio",
     "slug": "first-portfolio",
