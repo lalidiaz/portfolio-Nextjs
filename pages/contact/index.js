@@ -38,7 +38,7 @@ export default function Contact() {
             <motion.div variants={boxVariants} initial="out" animate="in">
               <div className={styles.social}>
                 <motion.span variants={iconVariants}>
-                  <a href="mailto:contact@lauradiaz.dev" className={styles.a}>
+                  <a href="mailto:lauradiaz1586@gmail.com" className={styles.a}>
                     <HiOutlineMailOpen size={22} />
                     <span className={styles.span}>lauradiaz1586@gmail.com</span>
                   </a>

@@ -42,7 +42,7 @@ export const boxVariants = {
 };
 export const iconVariants = {
   out: {
-    x: -600,
+    x: -900,
   },
   in: {
     x: 0,
