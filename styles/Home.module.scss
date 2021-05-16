@@ -24,9 +24,13 @@
     padding: 10px;
 
     .typewriter {
-      font-size: 30px;
+      font-size: 20px;
       text-align: left;
       width: 100%;
+
+      @include respond(phone) {
+        font-size: 30px;
+      }
       @include respond(tablet) {
         font-size: 50px;
       }

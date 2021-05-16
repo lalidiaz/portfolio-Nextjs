@@ -3,6 +3,11 @@
 // // 769px — 1024px: Small screens, laptops.
 
 @mixin respond($breakpoint) {
+  @if $breakpoint == smallPhone {
+    @media (min-width: 280px) and (max-width: 320px) {
+      @content;
+    }
+  }
   @if $breakpoint == phone {
     @media (min-width: 320px) and (max-width: 480px) {
       @content;
