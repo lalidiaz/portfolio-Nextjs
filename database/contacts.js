@@ -1,4 +1,4 @@
-import GitHubIcon from "@material-ui/icons/Github";
+import GitHubIcon from "@material-ui/icons/GitHub";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import DescriptionIcon from "@material-ui/icons/Description";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
