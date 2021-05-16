@@ -40,7 +40,7 @@ export default function Contact() {
                 <motion.span variants={iconVariants}>
                   <a href="mailto:contact@lauradiaz.dev" className={styles.a}>
                     <HiOutlineMailOpen size={22} />
-                    <span className={styles.span}>contact@lauradiaz.dev</span>
+                    <span className={styles.span}>lauradiaz1586@gmail.com</span>
                   </a>
                 </motion.span>
                 <motion.span variants={iconVariants}>
