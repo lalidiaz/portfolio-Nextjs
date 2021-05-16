@@ -66,10 +66,9 @@ export default function About() {
                 initial="hidden"
                 animate="show"
               >
-                HTML5 • CSS3 • Javascript (ES6) •ReactJs • NextJs • React Apollo
-                • Axios • Typescript • AWS Amplify • Graphql • Git • Material UI
-                • Styled Components • Sass • Browser developer tools •
-                Responsive Design.
+                HTML5 • CSS3 / Scss / Material UI / Styled Components •
+                Javascript (ES6) • Reactjs • Nextjs • React Native • Typescript
+                • Git • Browser developer tools • Responsive Design
               </motion.p>
             </section>
           </section>
