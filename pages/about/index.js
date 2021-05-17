@@ -40,7 +40,7 @@ export default function About() {
               <TextLoop
                 interval={2000}
                 children={[
-                  "Front-end developer 💻",
+                  "Front-end dev 💻",
                   "plant lover 🌿",
                   "cat fan 🐈",
                   "chillwave addict 🎧",

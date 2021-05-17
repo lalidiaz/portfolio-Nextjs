@@ -57,10 +57,19 @@
     }
 
     .imageContainer {
-      width: 600px;
+      width: 400px;
       height: auto;
-      margin: 20px;
-      padding: 30px;
+
+      @include respond(phone) {
+        width: 400px;
+      }
+      @include respond(tablet) {
+      }
+      @include respond(desktop) {
+        width: 600px;
+        margin: 20px;
+        padding: 30px;
+      }
       .img {
         width: 100%;
         height: 100%;
@@ -97,13 +106,32 @@
       }
       .h1 {
         font-family: $monument-regular;
-        font-size: 26px;
+        font-size: 16px;
+
+        @include respond(phone) {
+          font-size: 16px;
+        }
+        @include respond(tablet) {
+          font-size: 18px;
+        }
+        @include respond(desktop) {
+          font-size: 22px;
+        }
       }
       p {
+        font-size: 14px;
         font-weight: bold;
         display: flex;
         align-items: center;
-
+        @include respond(phone) {
+          font-size: 16px;
+        }
+        @include respond(tablet) {
+          font-size: 18px;
+        }
+        @include respond(desktop) {
+          font-size: 22px;
+        }
         .span {
           padding-left: 5px;
         }
