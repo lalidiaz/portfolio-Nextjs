@@ -18,7 +18,7 @@
     padding-bottom: 0px;
     height: 100vh;
   }
-  @include respond(desktop17) {
+  @include respond(desktop) {
     padding-bottom: 0px;
     height: 100vh;
   }
@@ -46,7 +46,7 @@
       font-size: 26px;
     }
 
-    @include respond(desktop17) {
+    @include respond(desktop) {
       padding: 100px;
       font-size: 26px;
     }
@@ -68,7 +68,7 @@
       font-size: 26px;
     }
 
-    @include respond(desktop17) {
+    @include respond(desktop) {
       font-size: 26px;
     }
 

@@ -28,7 +28,7 @@
       bottom: -60px;
     }
 
-    @include respond(desktop17) {
+    @include respond(desktop) {
       font-size: 100px;
       bottom: -50px;
     }
@@ -63,7 +63,7 @@
         padding-top: 10%;
       }
 
-      @include respond(desktop17) {
+      @include respond(desktop) {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -91,7 +91,7 @@
           display: flex;
         }
 
-        @include respond(desktop17) {
+        @include respond(desktop) {
           width: 100%;
           height: auto;
           flex: 1 0 28%;

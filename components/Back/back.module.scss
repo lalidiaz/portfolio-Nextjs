@@ -24,7 +24,7 @@
     }
   }
 
-  @include respond(desktop17) {
+  @include respond(desktop) {
     position: absolute;
     top: 50px;
     left: 50px;

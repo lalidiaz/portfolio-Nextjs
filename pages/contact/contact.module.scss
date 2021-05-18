@@ -23,7 +23,7 @@
     height: 100vh;
   }
 
-  @include respond(desktop17) {
+  @include respond(desktop) {
     padding: 100px;
     height: 100vh;
   }
@@ -42,7 +42,7 @@
       font-size: 36px;
     }
 
-    @include respond(desktop17) {
+    @include respond(desktop) {
       font-size: 36px;
     }
   }
@@ -60,7 +60,7 @@
       height: 100%;
     }
 
-    @include respond(desktop17) {
+    @include respond(desktop) {
       height: 100%;
     }
 
@@ -74,7 +74,7 @@
       @include respond(laptop) {
         padding-top: 10px;
       }
-      @include respond(desktop17) {
+      @include respond(desktop) {
         padding-top: 10px;
       }
       .social {
@@ -94,7 +94,7 @@
           font-size: 32px;
         }
 
-        @include respond(desktop17) {
+        @include respond(desktop) {
           font-size: 32px;
         }
 

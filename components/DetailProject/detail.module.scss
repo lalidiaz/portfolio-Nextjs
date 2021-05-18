@@ -14,7 +14,7 @@
   @include respond(laptop) {
     height: 100vh;
   }
-  @include respond(desktop17) {
+  @include respond(desktop) {
     height: 100vh;
   }
 
@@ -28,11 +28,25 @@
     .back a {
       text-decoration: none;
     }
-
     @include respond(laptop) {
+      position: absolute;
       top: 50px;
       left: 50px;
       font-size: 36px;
+      z-index: 1;
+      font-family: $monument-extrabold;
+      .back a {
+        text-decoration: none;
+      }
+    }
+
+    @include respond(desktop) {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      font-size: 36px;
+      z-index: 1;
+      font-family: $monument-extrabold;
       .back a {
         text-decoration: none;
       }
@@ -59,7 +73,7 @@
       align-items: center;
     }
 
-    @include respond(desktop17) {
+    @include respond(desktop) {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -81,7 +95,7 @@
         padding: 30px;
       }
 
-      @include respond(desktop17) {
+      @include respond(desktop) {
         width: 600px;
         margin: 20px;
         padding: 30px;
@@ -101,7 +115,7 @@
           padding: 0px;
         }
 
-        @include respond(desktop17) {
+        @include respond(desktop) {
           width: 100%;
           padding: 0px;
         }
@@ -124,7 +138,7 @@
         padding: 30px;
       }
 
-      @include respond(desktop17) {
+      @include respond(desktop) {
         width: 50%;
         font-size: 36px;
         padding: 30px;

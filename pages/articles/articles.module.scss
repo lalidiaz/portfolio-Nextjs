@@ -14,11 +14,17 @@
 
   @include respond(phone) {
     padding: 15px;
+    height: 100%;
     padding-bottom: 50px;
   }
 
   @include respond(laptop) {
     height: 100%;
+    padding: 40px;
+  }
+
+  @include respond(desktop) {
+    height: 100vh;
     padding: 40px;
   }
 
@@ -40,7 +46,7 @@
       font-size: 45px;
       padding-right: 80px;
     }
-    @include respond(desktop17) {
+    @include respond(desktop) {
       font-size: 45px;
       padding-right: 80px;
     }

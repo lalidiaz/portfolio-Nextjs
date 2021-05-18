@@ -1,7 +1,5 @@
 import styles from "./about.module.scss";
 import { motion } from "framer-motion";
-import Link from "next/link";
-import { BsQuestionCircle } from "react-icons/bs";
 import Head from "next/head";
 import Back from "../../components/Back";
 import TextLoop from "react-text-loop";

@@ -35,7 +35,7 @@
       justify-content: space-around;
     }
 
-    @include respond(desktop17) {
+    @include respond(desktop) {
       font-size: 30px;
       flex-direction: row;
       height: 25vh;

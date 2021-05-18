@@ -37,7 +37,7 @@
       @include respond(laptop) {
         font-size: 100px;
       }
-      @include respond(desktop17) {
+      @include respond(desktop) {
         font-size: 100px;
       }
     }
