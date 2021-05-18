@@ -24,7 +24,7 @@
   }
 
   @include respond(desktop) {
-    height: 100vh;
+    height: 100%;
     padding: 40px;
   }
 

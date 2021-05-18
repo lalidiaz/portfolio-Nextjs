@@ -19,7 +19,7 @@
     "descriptionTech": "ReactJs + Typescript",
     "techStack": "ReactJs + Typescript + Context + Framer Motion",
     "githubLink": "https://github.com/lalidiaz/pizza-typescript-react",
-    "url": "https://pizza-app-phi.vercel.app/",
+    "url": null,
     "description": "You can add pizzas to a cart, make your own pizza and check the offers available!. This pizzas will be store in your local storage. This app is built in React with Typescript. Check out the animations. ",
     "type": "App"
   },
@@ -31,7 +31,7 @@
     "descriptionTech": "NextJs + Firebase",
     "techStack": "NextJs + Firebase",
     "githubLink": "https://github.com/lalidiaz/dev-socialmedia-nextjs",
-    "url": "https://devtweeter.vercel.app",
+    "url": "https://github.com/lalidiaz/dev-socialmedia-nextjs/blob/main/dev-social-media-app.mov",
     "description": "DevTweet social media app (Twitter Clon) with Github authentication (Firebase). You can write DevTweets and upload them in real time. You can upload images (drag and drop) and those images will be saved in firebase storage.",
     "type": "Desktop & Movile App"
   },
@@ -43,7 +43,7 @@
     "descriptionTech": "ReactJs + Framer Motion",
     "techStack": "ReactJs + React Router + Framer Motion",
     "githubLink": "https://github.com/lalidiaz/perle-fine",
-    "url": " https://perle-fine.vercel.app",
+    "url": null,
     "description": "This is a demo about animations. I choose Perle Fine because she was very talented.",
     "type": "Animation demo"
   },
@@ -55,7 +55,7 @@
     "descriptionTech": "ReactJs + useReducer",
     "techStack": "React Js + useReducer + useContext",
     "githubLink": "https://github.com/lalidiaz/cart-usecontext-usereducer-ReactJs",
-    "url": "https://cart-usereducer-usecontext-lalidiaz.vercel.app/",
+    "url": null,
     "description": "This is the 14th project to refresh ReactJs concepts. Topics: useContext() and useReducer() hooks, contextAPI, fetch data with useReducer()",
     "type": "App"
   },
@@ -67,7 +67,7 @@
     "descriptionTech": "ReactJs + useContext",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/submenu-useContext-Reactjs",
-    "url": "https://submenu-usecontext.vercel.app/",
+    "url": null,
     "description": "This is the 13th project to refresh ReactJs concepts. Hover over the menu items and see information about different sections of each page. Topic: useContext() hook, contextAPI.",
     "type": "App"
   },
@@ -79,7 +79,7 @@
     "descriptionTech": "ReactJs + useContext",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/sidebar-useContext-and-ContextAPI",
-    "url": "https://modal-use-context-context-api.vercel.app/",
+    "url": null,
     "description": "This is the 12th project to refresh ReactJs concepts. Topic: useContext() hook and Context API, I created a custom hook to import the specific context and useContext() hook.",
     "type": "App"
   },
@@ -91,7 +91,7 @@
     "descriptionTech": "ReactJs + useRef",
     "techStack": "React Js + useRef",
     "githubLink": "https://github.com/lalidiaz/navbar-reactjs",
-    "url": "https://navbar-useref.vercel.app/",
+    "url": null,
     "description": "This is the 11th project to refresh ReactJs concepts. This is a responsive navbar with useRef() hook.",
     "type": "App"
   },
@@ -103,7 +103,7 @@
     "descriptionTech": "ReactJs + Framer Motion",
     "techStack": "React Js + Local Storage + Framer Motion",
     "githubLink": "https://github.com/lalidiaz/grocery-app-ReactJs",
-    "url": "https://grocery-app-one.vercel.app/",
+    "url": null,
     "description": "This is the 10th project to refresh ReactJs concepts. This is a grocery app, you can add items to the list, remove and modify the name of the item. If you refresh the page, the items will still be there because I used Local Storage to store the items.",
     "type": "App"
   },
@@ -115,7 +115,7 @@
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/colors-generator-ReactJs",
-    "url": "https://colors-generator.vercel.app/",
+    "url": null,
     "description": "This is the 9th project to refresh ReactJs concepts. Get lightness or darkness of a color, if you write something that is not hex code, the input turn red. I used values.js to get the values.",
     "type": "App"
   },
@@ -127,7 +127,7 @@
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/paragraph-generator-ReactJs",
-    "url": "https://words-generator.vercel.app/",
+    "url": null,
     "description": "This is the 8th project to refresh ReactJs concepts. Get a number of paragraphs by choosing a number and clicking the button.",
     "type": "App"
   },
@@ -139,7 +139,7 @@
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/slider-reactJs",
-    "url": "https://slider-kohl.vercel.app/",
+    "url": null,
     "description": "This is the 7th project to refresh ReactJs concepts. This is a Slider app.",
     "type": "App"
   },
@@ -151,7 +151,7 @@
     "descriptionTech": "ReactJs + Filter Menu",
     "techStack": "ReactJs + Filter",
     "githubLink": "https://github.com/lalidiaz/food-menu-ReactJs",
-    "url": "https://menu-lime.vercel.app/",
+    "url": null,
     "description": "This is the 5th project to refresh ReactJs concepts. This is a menu app. You can choose the category and see what's in the menu.",
     "type": "Project"
   },
@@ -163,7 +163,7 @@
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/accordion-ReactJs",
-    "url": "https://accordion-six.vercel.app/",
+    "url": null,
     "description": "This is the 4th project to refresh ReactJs concepts. In this app you can read about Waitomo Caves (New Zeland), you can click the button to see more info.",
     "type": "Project"
   },
@@ -176,7 +176,7 @@
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/reviews-project-ReactJs",
-    "url": "https://reviews-tau.vercel.app/",
+    "url": null,
     "description": "This is the 3rd project to refresh ReactJs concepts. This is a Reviews app. ",
     "type": "Project"
   },
@@ -188,7 +188,7 @@
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/tours-project-ReactJs",
-    "url": "https://tours-seven.vercel.app/",
+    "url": null,
     "description": "This is the 2nd project to refresh ReactJs concepts. In this app you can delete the tours offers you are not interested in and refresh the list of tours.",
     "type": "Project"
   },
@@ -200,7 +200,7 @@
     "descriptionTech": "ReactJs",
     "techStack": "ReactJs",
     "githubLink": "https://github.com/lalidiaz/birthday-app-ReactJs",
-    "url": "https://birthday-app-eight.vercel.app/",
+    "url": null,
     "description": "This is the 1st project to refresh ReactJs concepts. It's a birthday app which reminds you of today's birthdays. You can clear the list once you checked. ",
     "type": "Project"
   },
@@ -213,7 +213,7 @@
     "descriptionTech": "ReactJs + React Router",
     "techStack": "ReactJs + React Router",
     "githubLink": "https://github.com/lalidiaz/new-personal-portfolio",
-    "url": "https://lauradiaz.lalidiaz.vercel.app/",
+    "url": null,
     "description": "This was my previous personal portfolio, with a minimalist and simple UI.",
     "type": "Course"
   },
@@ -226,7 +226,7 @@
     "descriptionTech": "ReactJs + Redux",
     "techStack": "React-Redux",
     "githubLink": "https://github.com/lalidiaz/Redux-Course",
-    "url": "https://github.com/lalidiaz/Redux-Course",
+    "url": null,
     "description": "In this course I learnt about Functional Programming, how to implement Redux Toolkit, I did some testing with a library called \"Jest\" and Debugging with Redux Dev Tools and React Dev Tools. This is a very simple UI app where you can mark a Bug as resolved, I encourage you to have a look at the code please, the interesting part is in Store folder where you will find all the Redux code.",
     "type": "Course"
   },
@@ -238,7 +238,7 @@
     "descriptionTech": "React Native + GraphQL",
     "techStack": "React Native + GraphQL + Typescript + AWS Amplify + AWS AppSync",
     "githubLink": "https://github.com/lalidiaz/Spotify-Clone-React-Native",
-    "url": "https://github.com/lalidiaz/Spotify-Clone-React-Native",
+    "url": null,
     "description": "In this opportunity, I built an Spotify clone with the same UI. Front End: React Native, Expo, TypeScript and React Navegation. Back End: AWS Amplify, AWS AppSync and GraphQL. I create my own database and fetch the data from there. I used the library Expo-av to play and stop the songs in real time.",
     "type": "Fullstack Mobile App"
   },
@@ -250,7 +250,7 @@
     "descriptionTech": "React Native",
     "techStack": "React Native",
     "githubLink": "https://github.com/lalidiaz/cryptotracker-React-Native",
-    "url": "https://github.com/lalidiaz/cryptotracker-React-Native",
+    "url": null,
     "description": "With this app you can check all the Crypto currencies available in the market, in which markets you can find them and also information about the specific one you selected. It will show you if the price went up or down in the last 24 hours and in USD as well! You can add your favourite curriencies and delete them as well.",
     "type": "Mobile App"
   },
@@ -262,7 +262,7 @@
     "descriptionTech": "ReactJs Hooks",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/Recipe-ReactJc",
-    "url": "https://food-recipe-app.vercel.app",
+    "url": null,
     "description": "This is a Recipe app built in ReactJs with Hooks, you can write the ingredient you like and you will get the recipes that contain that ingredient. Enjoy!",
     "type": "Desktop App"
   },
@@ -274,7 +274,7 @@
     "descriptionTech": "ReactJs + React Apollo",
     "techStack": "React Js + Styled Components + React Helmet (SEO) + GraphQl + React Apollo",
     "githubLink": "https://github.com/lalidiaz/Tigram-App",
-    "url": "https://tigram-app.lalidiaz.vercel.app/",
+    "url": null,
     "description": "This is an Instagram clone for pets (because I love animals 💖), you can log in and log out (with authentification), like pictures, add to your favourites and delete.",
     "type": "Desktop & Movile App"
   },
@@ -287,7 +287,7 @@
     "descriptionTech": "ReactJs + Redux",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/toDoList-Redux",
-    "url": "https://todolist-redux.vercel.app/",
+    "url": null,
     "description": "A To-Do list but this time with Redux!",
     "type": "Desktop & Movile App"
   },
@@ -300,7 +300,7 @@
     "descriptionTech": "React Js",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/Personal-portfolio-ReactJs",
-    "url": "https://github.com/lalidiaz/Personal-portfolio-ReactJs",
+    "url": null,
     "description": "This is my first portfolio, is built in ReactJs. You can see the Figma design on github.",
     "type": "Desktop & Movile App"
   },
@@ -312,7 +312,7 @@
     "descriptionTech": "React Js",
     "techStack": "React Js",
     "githubLink": "https://github.com/lalidiaz/SearchEngineReact",
-    "url": "https://fetch-mercadolibre.lalidiaz.vercel.app/",
+    "url": null,
     "description": "This is a search engine where you can look for any product you like. I fetch the data from a public api from a large e-commerce from Argentina.",
     "type": "Desktop App"
   },
@@ -324,7 +324,7 @@
     "descriptionTech": "CSS + HTML5",
     "techStack": "CSS + HTML5",
     "githubLink": "https://github.com/lalidiaz/Bali-Experience-3DCards",
-    "url": "https://baliexperience.now.sh/",
+    "url": null,
     "description": "This is a simple web with animated cards, just hover over the cards and you will see 🙈",
     "type": "Desktop & Movile App"
   },
@@ -336,7 +336,7 @@
     "descriptionTech": "Javascript Vanilla",
     "techStack": "CSS + HTML + Javascript Vanilla",
     "githubLink": "https://github.com/lalidiaz/Weather-Fetch",
-    "url": "https://app-weather.vercel.app/",
+    "url": null,
     "description": "In this App you can type any city in the world and will tell you the weather. I fetch the data from a public Weather Api.",
     "type": "Desktop & Movile App"
   },
@@ -348,7 +348,7 @@
     "descriptionTech": "Javascript Vanilla",
     "techStack": "CSS + HTML + Javascript Vanilla",
     "githubLink": "https://github.com/lalidiaz/Ely-AguileraArtWeb",
-    "url": "https://pagina-mami.lalidiaz.vercel.app/",
+    "url": null,
     "description": "I built this web for an arstist. This is a profesional project.",
     "type": "Desktop & Movile App"
   },
@@ -360,7 +360,7 @@
     "descriptionTech": "CSS + HTML",
     "techStack": "CSS + HTML",
     "githubLink": "https://github.com/lalidiaz/La-Muralla-Roja",
-    "url": "https://efecto-parallax-3nd21jqki.vercel.app/",
+    "url": null,
     "description": "This is a simple web about a magical place in Spain, designed by architect Ricardo Bofill.",
     "type": "Desktop App"
   }

@@ -68,14 +68,20 @@ const DetailProject = ({
             </span>
           </motion.p>
 
-          <motion.p variants={delay25EaseInOut} initial="hidden" animate="show">
-            <ImLink size={20} />
-            <span className={styles.span}>See the demo</span>
-            <a href={url} target="_blank" style={{ paddingLeft: "10px" }}>
-              here
-            </a>
-            .
-          </motion.p>
+          {url && (
+            <motion.p
+              variants={delay25EaseInOut}
+              initial="hidden"
+              animate="show"
+            >
+              <ImLink size={20} />
+              <span className={styles.span}>See the demo</span>
+              <a href={url} target="_blank" style={{ paddingLeft: "10px" }}>
+                here
+              </a>
+              .
+            </motion.p>
+          )}
         </div>
         <div className={styles.imageContainer}>
           <motion.img
