@@ -1,2 +1,4 @@
 
-# portfolio-Nextjs
+# Personal Portfolio ✏️
+
+Coded with ❤️ by me.
