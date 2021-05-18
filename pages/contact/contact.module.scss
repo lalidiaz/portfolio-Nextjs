@@ -18,14 +18,11 @@
   @include respond(tablet) {
     padding: 60px;
   }
-  @include respond(desktop) {
+  @include respond(laptop) {
     padding: 100px;
     height: 100vh;
   }
-  @include respond(desktop15) {
-    padding: 100px;
-    height: 100vh;
-  }
+
   @include respond(desktop17) {
     padding: 100px;
     height: 100vh;
@@ -41,12 +38,10 @@
     @include respond(tablet) {
       font-size: 28px;
     }
-    @include respond(desktop) {
+    @include respond(laptop) {
       font-size: 36px;
     }
-    @include respond(desktop15) {
-      font-size: 36px;
-    }
+
     @include respond(desktop17) {
       font-size: 36px;
     }
@@ -61,12 +56,10 @@
     @include respond(tablet) {
       height: 90%;
     }
-    @include respond(desktop) {
+    @include respond(laptop) {
       height: 100%;
     }
-    @include respond(desktop15) {
-      height: 100%;
-    }
+
     @include respond(desktop17) {
       height: 100%;
     }
@@ -78,13 +71,9 @@
       @include respond(tablet) {
         padding-top: 50px;
       }
-      @include respond(desktop) {
+      @include respond(laptop) {
         padding-top: 10px;
       }
-      @include respond(desktop15) {
-        padding-top: 10px;
-      }
-
       @include respond(desktop17) {
         padding-top: 10px;
       }
@@ -101,12 +90,10 @@
         @include respond(tablet) {
           font-size: 21px;
         }
-        @include respond(desktop) {
+        @include respond(laptop) {
           font-size: 32px;
         }
-        @include respond(desktop15) {
-          font-size: 32px;
-        }
+
         @include respond(desktop17) {
           font-size: 32px;
         }

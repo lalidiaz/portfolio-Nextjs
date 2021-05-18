@@ -34,11 +34,7 @@
       @include respond(tablet) {
         font-size: 50px;
       }
-      @include respond(desktop) {
-        font-size: 100px;
-      }
-
-      @include respond(desktop15) {
+      @include respond(laptop) {
         font-size: 100px;
       }
       @include respond(desktop17) {

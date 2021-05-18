@@ -14,11 +14,11 @@
     padding-bottom: 30px;
     height: 100vh;
   }
-  @include respond(desktop) {
+  @include respond(laptop) {
     padding-bottom: 0px;
     height: 100vh;
   }
-  @include respond(desktop15) {
+  @include respond(desktop17) {
     padding-bottom: 0px;
     height: 100vh;
   }
@@ -41,14 +41,11 @@
       padding: 80px 30px 10px 30px;
       font-size: 22px;
     }
-    @include respond(desktop) {
+    @include respond(laptop) {
       padding: 100px;
       font-size: 26px;
     }
-    @include respond(desktop15) {
-      padding: 100px;
-      font-size: 26px;
-    }
+
     @include respond(desktop17) {
       padding: 100px;
       font-size: 26px;
@@ -67,13 +64,10 @@
       font-size: 22px;
     }
 
-    @include respond(desktop) {
+    @include respond(laptop) {
       font-size: 26px;
     }
 
-    @include respond(desktop15) {
-      font-size: 26px;
-    }
     @include respond(desktop17) {
       font-size: 26px;
     }
@@ -84,7 +78,7 @@
     @include respond(tablet) {
       font-size: 22px;
     }
-    @include respond(desktop) {
+    @include respond(laptop) {
       font-size: 26px;
     }
   }

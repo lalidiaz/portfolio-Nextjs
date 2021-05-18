@@ -3,17 +3,30 @@
 
 .wrapper {
   margin: 0 auto;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  padding: 40px;
+  padding: 10px;
   background-color: $light;
   background-image: url("../../public/background2.jpeg");
   background-position: center;
   background-size: cover;
+  padding-bottom: 50px;
+
+  @include respond(phone) {
+    padding: 15px;
+    padding-bottom: 50px;
+  }
+
+  @include respond(laptop) {
+    height: 100%;
+    padding: 40px;
+  }
 
   .title {
     font-family: $monument-extrabold;
-    font-size: 30px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -23,11 +36,11 @@
       font-size: 45px;
       padding-right: 80px;
     }
-    @include respond(desktop) {
+    @include respond(laptop) {
       font-size: 45px;
       padding-right: 80px;
     }
-    @include respond(desktop15) {
+    @include respond(desktop17) {
       font-size: 45px;
       padding-right: 80px;
     }

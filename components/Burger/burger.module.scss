@@ -28,19 +28,13 @@
       height: 25vh;
       justify-content: space-around;
     }
-    @include respond(desktop) {
+    @include respond(laptop) {
       font-size: 30px;
       flex-direction: row;
       height: 25vh;
       justify-content: space-around;
     }
 
-    @include respond(desktop15) {
-      font-size: 30px;
-      flex-direction: row;
-      height: 25vh;
-      justify-content: space-around;
-    }
     @include respond(desktop17) {
       font-size: 30px;
       flex-direction: row;
@@ -53,7 +47,7 @@
       @include respond(tablet) {
         padding-bottom: 0px;
       }
-      @include respond(desktop) {
+      @include respond(laptop) {
         padding-bottom: 0px;
       }
     }

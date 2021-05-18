@@ -18,18 +18,14 @@
       @content;
     }
   }
-  @if $breakpoint == desktop {
+  @if $breakpoint == laptop {
     @media (min-width: 769px) and (max-width: 1440px) {
       @content;
     }
   }
-  @if $breakpoint == desktop15 {
-    @media (min-width: 1440px) and (max-width: 1680px) {
-      @content;
-    }
-  }
+
   @if $breakpoint == desktop17 {
-    @media (min-width: 1680px) and (max-width: 1920px) {
+    @media (min-width: 1440px) and (max-width: 1920px) {
       @content;
     }
   }

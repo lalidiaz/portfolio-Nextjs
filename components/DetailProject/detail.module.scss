@@ -11,10 +11,7 @@
   @include respond(tablet) {
     height: 100%;
   }
-  @include respond(desktop) {
-    height: 100vh;
-  }
-  @include respond(desktop15) {
+  @include respond(laptop) {
     height: 100vh;
   }
   @include respond(desktop17) {
@@ -32,7 +29,7 @@
       text-decoration: none;
     }
 
-    @include respond(desktop) {
+    @include respond(laptop) {
       top: 50px;
       left: 50px;
       font-size: 36px;
@@ -55,18 +52,13 @@
       justify-content: center;
       align-items: center;
     }
-    @include respond(desktop) {
+    @include respond(laptop) {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
     }
-    @include respond(desktop15) {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
+
     @include respond(desktop17) {
       display: flex;
       flex-direction: row;
@@ -83,17 +75,12 @@
       }
       @include respond(tablet) {
       }
-      @include respond(desktop) {
+      @include respond(laptop) {
         width: 600px;
         margin: 20px;
         padding: 30px;
       }
 
-      @include respond(desktop15) {
-        width: 600px;
-        margin: 20px;
-        padding: 30px;
-      }
       @include respond(desktop17) {
         width: 600px;
         margin: 20px;
@@ -109,14 +96,11 @@
           width: 100%;
           padding: 0px;
         }
-        @include respond(desktop) {
+        @include respond(laptop) {
           width: 100%;
           padding: 0px;
         }
-        @include respond(desktop15) {
-          width: 100%;
-          padding: 0px;
-        }
+
         @include respond(desktop17) {
           width: 100%;
           padding: 0px;
@@ -134,16 +118,12 @@
         font-size: 20px;
         padding: 20px;
       }
-      @include respond(desktop) {
+      @include respond(laptop) {
         width: 50%;
         font-size: 20px;
         padding: 30px;
       }
-      @include respond(desktop15) {
-        width: 50%;
-        font-size: 20px;
-        padding: 30px;
-      }
+
       @include respond(desktop17) {
         width: 50%;
         font-size: 36px;
@@ -163,7 +143,7 @@
         @include respond(tablet) {
           font-size: 18px;
         }
-        @include respond(desktop) {
+        @include respond(laptop) {
           font-size: 22px;
         }
       }
@@ -178,7 +158,7 @@
         @include respond(tablet) {
           font-size: 18px;
         }
-        @include respond(desktop) {
+        @include respond(laptop) {
           font-size: 22px;
         }
         .span {

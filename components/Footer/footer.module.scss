@@ -24,7 +24,7 @@
     height: auto;
     padding: 5px;
   }
-  @include respond(desktop) {
+  @include respond(laptop) {
     display: flex;
     justify-content: space-between;
     align-items: center;
