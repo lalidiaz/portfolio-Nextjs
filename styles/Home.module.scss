@@ -41,6 +41,9 @@
       @include respond(desktop15) {
         font-size: 100px;
       }
+      @include respond(desktop17) {
+        font-size: 100px;
+      }
     }
   }
 

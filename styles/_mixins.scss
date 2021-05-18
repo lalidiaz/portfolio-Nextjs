@@ -28,4 +28,9 @@
       @content;
     }
   }
+  @if $breakpoint == desktop17 {
+    @media (min-width: 1680px) and (max-width: 1920px) {
+      @content;
+    }
+  }
 }

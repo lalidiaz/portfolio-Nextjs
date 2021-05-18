@@ -17,6 +17,9 @@
   @include respond(desktop15) {
     height: 100vh;
   }
+  @include respond(desktop17) {
+    height: 100vh;
+  }
 
   .back {
     position: fixed;
@@ -64,6 +67,12 @@
       justify-content: center;
       align-items: center;
     }
+    @include respond(desktop17) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
 
     .imageContainer {
       width: 400px;
@@ -85,6 +94,11 @@
         margin: 20px;
         padding: 30px;
       }
+      @include respond(desktop17) {
+        width: 600px;
+        margin: 20px;
+        padding: 30px;
+      }
 
       .img {
         width: 100%;
@@ -100,6 +114,10 @@
           padding: 0px;
         }
         @include respond(desktop15) {
+          width: 100%;
+          padding: 0px;
+        }
+        @include respond(desktop17) {
           width: 100%;
           padding: 0px;
         }
@@ -126,6 +144,12 @@
         font-size: 20px;
         padding: 30px;
       }
+      @include respond(desktop17) {
+        width: 50%;
+        font-size: 36px;
+        padding: 30px;
+      }
+
       a {
         text-decoration: underline;
       }

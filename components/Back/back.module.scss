@@ -34,4 +34,15 @@
       text-decoration: none;
     }
   }
+  @include respond(desktop17) {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 36px;
+    z-index: 1;
+    font-family: $monument-extrabold;
+    .back a {
+      text-decoration: none;
+    }
+  }
 }
