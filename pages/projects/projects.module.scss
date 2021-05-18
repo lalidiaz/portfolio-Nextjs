@@ -27,6 +27,11 @@
       font-size: 100px;
       bottom: -60px;
     }
+
+    @include respond(desktop15) {
+      font-size: 100px;
+      bottom: -50px;
+    }
   }
 
   .gallery {
@@ -58,6 +63,13 @@
         padding-top: 10%;
       }
 
+      @include respond(desktop15) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-top: 10%;
+      }
+
       .thumbnail {
         width: 100%;
         height: auto;
@@ -79,6 +91,13 @@
           display: flex;
         }
 
+        @include respond(desktop15) {
+          width: 100%;
+          height: auto;
+          flex: 1 0 28%;
+          margin: 10px;
+          display: flex;
+        }
         .frame {
           .card {
             height: auto;

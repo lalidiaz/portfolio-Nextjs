@@ -22,6 +22,10 @@
     padding: 100px;
     height: 100vh;
   }
+  @include respond(desktop15) {
+    padding: 100px;
+    height: 100vh;
+  }
   .h3 {
     color: $red;
     font-size: 22px;
@@ -34,6 +38,9 @@
       font-size: 28px;
     }
     @include respond(desktop) {
+      font-size: 36px;
+    }
+    @include respond(desktop15) {
       font-size: 36px;
     }
   }
@@ -50,6 +57,9 @@
     @include respond(desktop) {
       height: 100%;
     }
+    @include respond(desktop15) {
+      height: 100%;
+    }
 
     .text {
       padding-top: 80px;
@@ -59,6 +69,9 @@
         padding-top: 50px;
       }
       @include respond(desktop) {
+        padding-top: 10px;
+      }
+      @include respond(desktop15) {
         padding-top: 10px;
       }
 
@@ -76,6 +89,9 @@
           font-size: 21px;
         }
         @include respond(desktop) {
+          font-size: 32px;
+        }
+        @include respond(desktop15) {
           font-size: 32px;
         }
 

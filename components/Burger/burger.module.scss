@@ -34,6 +34,13 @@
       height: 25vh;
       justify-content: space-around;
     }
+
+    @include respond(desktop15) {
+      font-size: 30px;
+      flex-direction: row;
+      height: 25vh;
+      justify-content: space-around;
+    }
     .a {
       padding-bottom: 10px;
 

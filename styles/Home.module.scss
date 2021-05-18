@@ -37,6 +37,10 @@
       @include respond(desktop) {
         font-size: 100px;
       }
+
+      @include respond(desktop15) {
+        font-size: 100px;
+      }
     }
   }
 
